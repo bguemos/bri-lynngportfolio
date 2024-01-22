@@ -1,0 +1,23 @@
+.button {
+    height: 51px;
+    width: 200px;
+    background-color: var(--tertiary-color);
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+   
+}
+
+.title{
+    text-decoration: none;
+    font-weight: 'bold';
+    color: black;
+}
+
+.button:hover {
+    background-color: var(--primary-color);
+}

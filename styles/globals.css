@@ -6,15 +6,21 @@
   --tertiary-color: #EAF4F4;
 }
 
-body {
+main {
   font-family: 'Anybody', sans-serif;
   margin: auto;
   max-width: var(--max-width);
   padding: 20px;
   box-sizing: border-box;
+  overflow-x: hidden;
  
   
 }
+body {
+  font-family: 'Anybody', sans-serif;
+
+}
+
 
 
 

@@ -2,11 +2,13 @@
 
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Projects.module.css'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
+import Project from '@/components/projects'
+import Carousel from '@/components/carousel'
 
-export default function Home() {
+export default function Projects() {
   return (
     <>
       <Head>
@@ -20,9 +22,18 @@ export default function Home() {
         />
       </Head>
       <Header />
-      <main className={styles.main}>
-        
+      <main>
 
+    
+        <h1 className={styles.header}>Projects</h1>
+     
+        
+      <div className={styles.main}>
+      <Carousel/>
+      </div>
+     
+     
+        
         
       </main>
       <Footer />
