@@ -5,10 +5,11 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 10%;
   max-width: 1280px;
   overflow-x: hidden;
   overflow-y: hidden;
+  background: linear-gradient( white, white, var(--tertiary-color));
   
  
  
@@ -26,12 +27,13 @@
   bottom: 0;
   right: 0;
   width: 350px; 
-  height: 150px; 
-  background-color: white;
+  background: white;
   text-wrap: wrap;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+ 
 }
 
 

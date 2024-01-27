@@ -1,6 +1,9 @@
 .main{
     display: flex;
-    flex-direction: column;
+  flex-direction: column;
+  margin: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
 
    
 }
@@ -16,8 +19,10 @@
     justify-content: space-between;
     
 }
+
 .firstcontent {
     height: 25%;
+    width: 1000px;
 }
 
 .leftcontent {
@@ -27,6 +32,8 @@
     height: 400px;
     width: 50%;
     padding: 2rem;
+
+
 }
 
 .caption {
@@ -41,6 +48,9 @@
     height: 400px;
     width: 40%;
     padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .line{
@@ -51,12 +61,12 @@
     display: flex;
     flex-direction: column;
     background-color: var(--tertiary-color);
-    height: 400px;
+    height: 620px;
     width: 50%;
     padding: 2rem;
 }
 .rightcontent2 {
-    height: 400px;
+    height: 500px;
     width: 40%;
     padding: 2rem;
 }
@@ -64,10 +74,19 @@
     display: flex;
     flex-direction: column;
     background-color: var(--tertiary-color);
-    height: 400px;
-    width: 50%;
+    height: 500px;
+    width: 55%;
     padding: 2rem;
     margin-top: 2%;
+}
+.rightcontent3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    margin-top: 2%;
+    width: 50%;
+   
 }
 
 .prototypingcontent {
@@ -75,6 +94,36 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+
+.mascots{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.screenshots{
+  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 13%;
+    
+}
+.lowfi{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+   
+    
+}
+
+.description{
+    width: 500px;
+}
+
+
 
 .persona {
     display: flex;
@@ -92,6 +141,26 @@
     width: 40%;
     padding: 2rem;
 }
+.rightcontent4 {
+    height: 400px;
+    width: 50%;
+    margin-left: 5%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.leftcontent4 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--tertiary-color);
+    height: 400px;
+    width: 50%;
+    padding: 2rem;
+
+
+}
+
 
 .coding{
     display: flex;
@@ -100,4 +169,23 @@
     width: 100%;
     height: 800px;
     padding: 5%;
+    margin-top: 5%;
 }
+
+
+.highFiImage {
+    width: 500px; /* Set the width and height according to your image */
+    height: 1100px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+  
+  .zoomImage {
+    transition: background-size 0.3s, background-position 0.3s;
+  }
+  
+  .zoomImage:hover {
+    background-size: 250%; /* Adjust the zoom level */
+  }

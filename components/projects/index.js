@@ -8,6 +8,8 @@ export default function Project({image, title, description, imageHeight, imageWi
     return (
         <>
         <div className={styles.main}>
+
+            
             
             <div className={styles.gradient}>
             <Image

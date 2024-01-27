@@ -6,10 +6,29 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Project from '../projects';
 import Slider from 'react-slick';
+import { useState } from 'react';
 
 
 
 export default function Carousel() {
+
+
+  
+
+
+  
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  
+  };
+
+
+  
 
 
     const projects = [
@@ -40,35 +59,20 @@ export default function Carousel() {
       ];
 
 
-      const PrevArrow = ({ onClick }) => (
-        <div className={styles.arrow} onClick={onClick}>
-          <Image src="/logo/leftarrow.png" alt="Left Arrow" width={20} height={20} />
-        </div>
-      );
-
-      const NextArrow = ({ onClick }) => (
-        <div className={styles.arrow} onClick={onClick}>
-          <Image src='/logo/rightarrow.png' alt="Right Arrow" width={20} height={20} />
-        </div>
-      );
+   
     
     
-      const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        prevArrow: <PrevArrow />,
-        nextArrow: <NextArrow />
-      };
+    
   
 
 
       return (
         <div className={styles.slider}>
+
+      
         <Slider {...settings}>
           {projects.map((project, index) => (
+            <div className={styles.maincontent}>
             <div key={index}>
               <Project
                 image={project.image}
@@ -77,6 +81,7 @@ export default function Carousel() {
                 imageHeight={project.imageHeight}
                 imageWidth={project.imageWidth}
               />
+            </div>
             </div>
           ))}
         </Slider>

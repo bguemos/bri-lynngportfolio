@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
+import Button from '@/components/buttons'
 
 export default function Home() {
   return (
@@ -30,6 +31,10 @@ export default function Home() {
           />
           <div className={styles.overlay}>
           <h1 className={styles.title}>Hey, i'm Bri-lynn Guemos</h1>
+          <Button 
+          title="View Projects"
+          link="/projects"
+          />
           </div>
         
         </div>
