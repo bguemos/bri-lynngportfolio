@@ -1,0 +1,16 @@
+.main{
+display: flex;
+  flex-direction: column;
+  margin: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+   
+}
+
+.imagegroup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

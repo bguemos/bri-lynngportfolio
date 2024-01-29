@@ -4,6 +4,7 @@
   --primary-color: #FF85AF;
   --secondary-color: #042A2B;
   --tertiary-color: #EAF4F4;
+
 }
 
 main {
@@ -17,8 +18,11 @@ main {
 }
 body {
   font-family: 'Anybody', sans-serif;
+  font-weight: 300; 
+
 
 }
+
 
 
 

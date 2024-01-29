@@ -6,6 +6,7 @@ import styles from '@/styles/Innersight.module.css'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Project from '@/components/projects'
+import Button from '@/components/buttons'
 
 
 export default function Innersight() {
@@ -47,7 +48,7 @@ export default function Innersight() {
         <div className={styles.overview}>
             <div className={styles.leftcontent}>
                 <h2 className={styles.caption}>Project Overview</h2>
-                <p className={styles.body}>Identified pain points and why we created this app</p>
+                <p className={styles.body}>At the beginning of our process, we focused on competitive and user research. We identified 3 major painpoints our target market were experiencing with traditional journaling and exisiting journaling apps, those painpoints were:</p>
                 <ul className={styles.body}>People who journal frequently have a hard time identifying patterns in their behaviour because it is challenging and time consuming to go back and analyze all of your entries. </ul>
                 <ul className={styles.body}>Organizing and being able to recall entries is challenging because it is hard to organize traditional journals or digital applications currently used to journal.</ul>
                 <ul className={styles.body}>People who journal often sometimes encounter writers block or find it hard to start.</ul>
@@ -163,7 +164,7 @@ export default function Innersight() {
                 alt='otter'
                 />
                   <Image
-                src="/projectImages/pandaexercising.png"
+                src="/projectImages/ottersleeping.png"
                 height={100}
                 width={80}
                 alt='sloth'
@@ -226,6 +227,28 @@ export default function Innersight() {
 
         </div>
         <div className={styles.prototyping}>
+          <h1>User Journey Map</h1>
+        <div className={styles.prototypingcontent}>
+            <div className={styles.lowfi}>
+            <div
+                className={`${styles.zoomImage} ${styles.journeymap}`}
+                style={{ backgroundImage: `url('/projectImages/user.png')` }}
+                onMouseMove={(e) => handleMouseMove(e)}
+                 />
+            <h2>User Journey Map</h2>
+            <p className={styles.description}>
+            Prior to transitioning to the wireframes, we created a user journey map tracking the steps a user would undergo when interacting with our app. Our aim was to ensure that our users could effortlessly access our primary features without encountering confusion or unnecessary steps.
+            </p>
+            </div>
+         
+            
+           
+           
+        
+            </div>
+
+        </div>
+        <div className={styles.prototyping}>
             <h1>UX Design and Prototype</h1>
 
             <div className={styles.prototypingcontent}>
@@ -283,14 +306,65 @@ export default function Innersight() {
 
         <div className={styles.coding}>
             <h1>Coding Process</h1>
-
-
+            <div className={styles.codingcontent}>
+              <div className={styles.codingleft}>
+            <p className={styles.codingdescription}>
+                In sprinting out the frontend development of our screens, we prioritize user experience to ensure seamless interaction and engagement. Here's how we bring the design to life:</p>
+               <ul className={styles.codingdescription} ><strong>User-Centric Design:</strong> Every aspect of our interface is meticulously crafted with the user in mind, aiming for intuitive navigation and clarity in functionality.</ul> 
+               <ul className={styles.codingdescription}> Key Features Accessibility: We emphasize the accessibility of key features, ensuring users can easily locate and utilize them without encountering unnecessary complexity.</ul>
+               <ul className={styles.codingdescription}> Responsive Design: Our design approach prioritizes responsiveness across various devices and screen sizes, guaranteeing a consistent and optimized experience for all users.</ul>
+               <ul className={styles.codingdescription}> Visual Appeal: Through thoughtful use of colors, typography, and visual elements, we enhance the aesthetic appeal of our interface, creating an inviting and engaging environment.</ul>
+               <ul className={styles.codingdescription}>  Interactive Elements: Interactive components such as buttons, forms, and animations enrich user interaction, fostering a dynamic and immersive experience.</ul>
+               <ul className={styles.codingdescription}> Feedback Integration: We incorporate feedback mechanisms to keep users informed about their actions, providing real-time responses and enhancing overall usability.</ul>
+               <ul className={styles.codingdescription}> Accessibility Considerations: We adhere to accessibility standards, making our interface inclusive and accessible to users with diverse needs and abilities.</ul>
+          <h3>Ai Sentiment Analysis and Firebase</h3>
+          <p className={styles.codingdescription}>
+          When integrating the AI Sentiment recognition, the developers refined the system to effectively categorize the sentiment of each journal entry. Through text processing techniques, we deconstructed the journal entries into discernible elements, providing users with insights into the positive or negative tones within their entries.
+          </p>
+          <p>his process established the framework for the integration of personalized recommendations, leveraging individual sentiment analysis data provided by users.</p>
+          
         </div>
 
-    
-
-
+            <div className={styles.codingright}>
+            <video  width="600" height="360" controls>
+            <source src="part1.mp4" type="video/mp4"/>
+            
+            </video>
+            <div className={styles.buttoncontainer}>
+          <Button 
+          title="View Code"
+          link="https://github.com/Mariessa-Pinto/innersight.git"
+          />
+          </div>
+            </div>
+            </div>
         </div>
+ </div>
+          <div className={styles.websupplement}>
+            <h1>Innersight Website</h1>
+            <p>To enhance the application, we developed an Innersight web app, offering users a desktop-based interface to access their accounts.</p>
+            <div className={styles.bottomimage}>
+            <Image
+            src={'/projectImages/websupplement.png'}
+            height={600}
+            width={1000}
+            alt='web'
+            />
+            <div className={styles.buttongroup}>
+              <Button 
+              title="view Website"
+              link="https://webapp.innersightapp.ca/"
+              />
+              <Button 
+              title="View Other Projects"
+              link="/projects"
+              />
+
+            </div>
+            </div>
+
+            
+          </div>
 
        </div>
       

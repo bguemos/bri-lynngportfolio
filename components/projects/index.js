@@ -3,7 +3,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Button from '../buttons';
 
-export default function Project({image, title, description, imageHeight, imageWidth }){
+export default function Project({project}) {
+ const { image, title, description, imageHeight, imageWidth , link } = project;
 
     return (
         <>
@@ -31,10 +32,9 @@ export default function Project({image, title, description, imageHeight, imageWi
             <p>{description}</p>
             </div>
            <div className={styles.button}>
-            <Button
-            title="Project Details"
-            link="/innersight"
-            />
+           <Button title="Project Details" 
+           link={link}
+           />
             </div>
             </div>
         </>
