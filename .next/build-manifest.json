@@ -12,11 +12,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -31,9 +26,10 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/innersight.js"
-    ],
-    "/projects": [
-      "static/chunks/webpack.js",
+    ]
+  },
+  "ampFirstPages": []
+}tatic/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/projects.js"
     ]

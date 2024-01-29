@@ -5,6 +5,7 @@
   overflow-x: hidden;
   overflow-y: hidden;
 
+
    
 }
 
@@ -23,6 +24,10 @@
 .firstcontent {
     height: 25%;
     width: 1000px;
+   
+}
+.innerapp {
+  font-weight: 300;
 }
 
 .leftcontent {
@@ -41,6 +46,7 @@
 }
 .body{
     color: var(--tertiary-color);
+    font-weight: 100;
 }
 
 .rightcontent {
@@ -227,6 +233,10 @@
  
   }
 
+  .websupp {
+    border: 1px solid var(--secondary-color);
+  }
+
   .bottomimage {
     display: flex;
     justify-content: center;
@@ -254,6 +264,4 @@
     transition: background-size 0.3s, background-position 0.3s;
   }
   
-  .zoomImage:hover {
-    background-size: 250%; /* Adjust the zoom level */
-  }
+ 

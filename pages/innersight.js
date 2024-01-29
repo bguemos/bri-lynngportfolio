@@ -12,8 +12,7 @@ import Button from '@/components/buttons'
 export default function Innersight() {
 
 
-
-  function handleMouseMove(e) {
+  function handleClick(e) {
     const element = e.target;
     const rect = element.getBoundingClientRect();
     const x = e.clientX - rect.left;
@@ -21,7 +20,9 @@ export default function Innersight() {
     const bgPosX = `${(x / rect.width) * 100}%`;
     const bgPosY = `${(y / rect.height) * 100}%`;
     element.style.backgroundPosition = `${bgPosX} ${bgPosY}`;
-  }
+}
+
+
   return (
     <>
       <Head>
@@ -31,7 +32,7 @@ export default function Innersight() {
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Anybody&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700;1,800;1,900&display=swap"
         />
       </Head>
       <Header />
@@ -40,9 +41,9 @@ export default function Innersight() {
        <div className={styles.main}>
         <div className={styles.firstcontent}>
             <h1>Innersight is a digital journaling Application to assist people with their mental health.</h1>
-            <h4>Innersight was developed to provide individuals who maintain regular journals with a secure platform to express their emotions and thoughts conveniently and universally. By employing AI sentiment recognition, Innersight assesses previous journal entries, assisting users in better understanding their emotions and behaviours. </h4>
-              <h4>It has the potential to identify events that may contribute to worsening symptoms while also highlights positive experiences in their daily lives. This tool is beneficial for individuals, whether diagnosed or undiagnosed, as it allows the AI to analyze entries spanning weeks, months, or years. This eliminates the need to manually revisit past entries to identify potential triggers, events, and patterns.</h4>
-            <h4>My Roles: Front-end Developer, UI/UX Designer</h4>
+            <h4 className={styles.innerapp}>Innersight was developed to provide individuals who maintain regular journals with a secure platform to express their emotions and thoughts conveniently and universally. By employing AI sentiment recognition, Innersight assesses previous journal entries, assisting users in better understanding their emotions and behaviours. </h4>
+              <h4 className={styles.innerapp}>It has the potential to identify events that may contribute to worsening symptoms while also highlights positive experiences in their daily lives. This tool is beneficial for individuals, whether diagnosed or undiagnosed, as it allows the AI to analyze entries spanning weeks, months, or years. This eliminates the need to manually revisit past entries to identify potential triggers, events, and patterns.</h4>
+            <h4 className={styles.innerapp}>My Roles: Front-end Developer, UI/UX Designer</h4>
 
         </div>
         <div className={styles.overview}>
@@ -76,7 +77,7 @@ export default function Innersight() {
             <div className={styles.leftcontent1}>
               <h1>Logo and colour pallet</h1>
               
-              <p>In crafting the design, the goal was to ensure a high level of user-friendliness. The monochromatic purple palette was chosen to enhance feelings of calmness, safety, and relaxation.</p>
+              <p >In crafting the design, the goal was to ensure a high level of user-friendliness. The monochromatic purple palette was chosen to enhance feelings of calmness, safety, and relaxation.</p>
               <Image 
               src="/projectImages/innersighthex.png"
               height={120}
@@ -231,10 +232,10 @@ export default function Innersight() {
         <div className={styles.prototypingcontent1}>
             <div className={styles.lowfi}>
             <div
-                className={`${styles.zoomImage} ${styles.journeymap}`}
-                style={{ backgroundImage: `url('/projectImages/user.png')` }}
-                onMouseMove={(e) => handleMouseMove(e)}
-                 />
+                  className={`${styles.zoomImage} ${styles.journeymap}`}
+                  style={{ backgroundImage: `url('/projectImages/user.png')` }}
+                  onClick={(e) => handleClick(e)}
+              />
             
             <h2>User Journey Map</h2>
             <p className={styles.description}>
@@ -250,21 +251,28 @@ export default function Innersight() {
 
             <div className={styles.prototypingcontent}>
             <div className={styles.lowfi}>
-            <div
-                    className={`${styles.zoomImage} ${styles.highFiImage}`}
-                    style={{ backgroundImage: `url('/projectImages/innersightlofi.png')` }}
-                    onMouseMove={(e) => handleMouseMove(e)}
-                  />
+              <div>
+            <Image 
+            src=""
+            height={10}
+            width={10}
+            alt=''
+            />
+            </div>
             <h2>Lo-fi Prototype</h2>
             <p className={styles.description}>
              When developing the lo-fi prototype,  there was an aim to maintain a consistent and user-friendly layout. Given that the app targets individuals with mental health concerns, there was a priority in preserving its primary purpose: providing a safe space for users to journal their thoughts and emotions without distractions.</p>
             </div>
             <div className={styles.lowfi}>
-            <div
-                    className={`${styles.zoomImage} ${styles.highFiImage}`}
-                    style={{ backgroundImage: `url('/projectImages/hifi.png')` }}
-                    onMouseMove={(e) => handleMouseMove(e)}
-                  />
+            <div>
+              <Image 
+              src=""
+              height={10}
+              width={10}
+              alt=''
+              />
+            </div>
+          
             <h2>High-fi Prototype</h2>
             <p className={styles.description}>
 
@@ -308,12 +316,12 @@ export default function Innersight() {
             <p className={styles.codingdescription}>
                 In sprinting out the frontend development of the screens, the main focus was on user experience to ensure seamless interaction and engagement. Here's how the design is brought to life:</p>
                <ul className={styles.codingdescription} ><strong>User-Centric Design:</strong> Every aspect of the interface is meticulously crafted with the user in mind, aiming for intuitive navigation and clarity in functionality.</ul> 
-               <ul className={styles.codingdescription}> Key Features Accessibility: emphasize the accessibility of key features, ensuring users can easily locate and utilize them without encountering unnecessary complexity.</ul>
-               <ul className={styles.codingdescription}> Responsive Design: The design approach prioritizes responsiveness across various devices and screen sizes, guaranteeing a consistent and optimized experience for all users.</ul>
-               <ul className={styles.codingdescription}> Visual Appeal: Through thoughtful use of colors, typography, and visual elements, it enhanced the aesthetic appeal of the interface, creating an inviting and engaging environment.</ul>
-               <ul className={styles.codingdescription}>  Interactive Elements: Interactive components such as buttons, forms, and animations enrich user interaction, fostering a dynamic and immersive experience.</ul>
-               <ul className={styles.codingdescription}> Feedback Integration: incorporated feedback mechanisms to keep users informed about their actions, providing real-time responses and enhancing overall usability.</ul>
-               <ul className={styles.codingdescription}> Accessibility Considerations: adhere to accessibility standards, making our interface inclusive and accessible to users with diverse needs and abilities.</ul>
+               <ul className={styles.codingdescription}> <strong>Key Features Accessibility:</strong> emphasize the accessibility of key features, ensuring users can easily locate and utilize them without encountering unnecessary complexity.</ul>
+               <ul className={styles.codingdescription}> <strong>Responsive Design:</strong> The design approach prioritizes responsiveness across various devices and screen sizes, guaranteeing a consistent and optimized experience for all users.</ul>
+               <ul className={styles.codingdescription}> <strong>Visual Appeal:</strong> Through thoughtful use of colors, typography, and visual elements, it enhanced the aesthetic appeal of the interface, creating an inviting and engaging environment.</ul>
+               <ul className={styles.codingdescription}>  <strong>Interactive Elements:</strong> Interactive components such as buttons, forms, and animations enrich user interaction, fostering a dynamic and immersive experience.</ul>
+               <ul className={styles.codingdescription}> <strong>Feedback Integration: </strong>incorporated feedback mechanisms to keep users informed about their actions, providing real-time responses and enhancing overall usability.</ul>
+               <ul className={styles.codingdescription}><strong> Accessibility Considerations:</strong> adhere to accessibility standards, making our interface inclusive and accessible to users with diverse needs and abilities.</ul>
           <h3>Ai Sentiment Analysis and Firebase</h3>
           <p className={styles.codingdescription}>
           When integrating the AI Sentiment recognition, the system was refined to effectively categorize the sentiment of each journal entry. Through text processing techniques, The sentiment deconstructed the journal entries into discernible elements, providing users with insights into the positive or negative tones within their entries.
@@ -324,7 +332,7 @@ export default function Innersight() {
 
             <div className={styles.codingright}>
             <video  width="600" height="360" controls>
-            <source src="part1.mp4" type="video/mp4"/>
+            <source src="part2.mp4" type="video/mp4"/>
             
             </video>
             <div className={styles.buttoncontainer}>
@@ -341,7 +349,7 @@ export default function Innersight() {
             <h1>Innersight Website</h1>
             <p>To enhance the application, an Innersight web app was developed, offering users a desktop-based interface to access their accounts.</p>
             <div className={styles.bottomimage}>
-            <Image
+            <Image className={styles.websupp}
             src={'/projectImages/websupplement.png'}
             height={600}
             width={1000}
