@@ -48,7 +48,7 @@ export default function Innersight() {
         <div className={styles.overview}>
             <div className={styles.leftcontent}>
                 <h2 className={styles.caption}>Project Overview</h2>
-                <p className={styles.body}>At the beginning of our process, we focused on competitive and user research. We identified 3 major painpoints our target market were experiencing with traditional journaling and exisiting journaling apps, those painpoints were:</p>
+                <p className={styles.body}>At the beginning of the process, there was high focus on competitive and user research. Through this, 3 major painpoints were identified that innersights target market were experiencing with traditional journaling and exisiting journaling apps, those painpoints were:</p>
                 <ul className={styles.body}>People who journal frequently have a hard time identifying patterns in their behaviour because it is challenging and time consuming to go back and analyze all of your entries. </ul>
                 <ul className={styles.body}>Organizing and being able to recall entries is challenging because it is hard to organize traditional journals or digital applications currently used to journal.</ul>
                 <ul className={styles.body}>People who journal often sometimes encounter writers block or find it hard to start.</ul>
@@ -76,7 +76,7 @@ export default function Innersight() {
             <div className={styles.leftcontent1}>
               <h1>Logo and colour pallet</h1>
               
-              <p>In crafting our design, our goal was to ensure a high level of user-friendliness. We opted for a monochromatic purple palette to enhance feelings of calmness, safety, and relaxation.</p>
+              <p>In crafting the design, the goal was to ensure a high level of user-friendliness. The monochromatic purple palette was chosen to enhance feelings of calmness, safety, and relaxation.</p>
               <Image 
               src="/projectImages/innersighthex.png"
               height={120}
@@ -85,14 +85,14 @@ export default function Innersight() {
               
               />
               <h2>Logo</h2>
-              <p>For our logo design, we used the same monochromatic pallet, Our initial logo was designed to look like a person kneeling.</p>
+              <p>For the logo design, it used the same monochromatic pallet, the initial logo was designed to look like a person kneeling.</p>
               <Image
                src='/projectImages/initiallogo.png'
                height={80}
                width={80}
                alt='initial logo'
               />
-              <p>After considering the concept of our app, we decided to go with a logo that was more open and hopeful creating the concept of an open flower that can be percieved as open pages of a book.</p>
+              <p>After considering the concept of the app, a new logo was designed that was more open and hopeful creating the concept of an open flower that can be percieved as open pages of a book.</p>
               <Image
               src='/projectImages/logo.png'
               height={80}
@@ -106,8 +106,8 @@ export default function Innersight() {
          
             <div className={styles.rightcontent2}>
                 <h1>Mascots</h1>
-                <p>To add a personal and engaging touch, we introduced mascots to the application.</p>
-              <p>We used the panda to represent peace and friendship, the frog for wisdom, the otter to represent kindness, and the sloth for relaxation and patience.</p>
+                <p>To add a personal and engaging touch, mascots were introduced to the application.</p>
+              <p>The panda to represent peace and friendship, the frog for wisdom, the otter to represent kindness, and the sloth for relaxation and patience.</p>
               <div className={styles.mascots}>
                 <Image
                 src="/mascots/Panda.png"
@@ -143,7 +143,7 @@ export default function Innersight() {
                 <h4>Otter</h4>
                 <h4>Sloth</h4>
               </div>
-              <p>You can encounter our mascots across our app, offering personalized recommendations and AI analyses to assist you in navigating through your next steps.</p>
+              <p>You can encounter the mascots across the app, offering personalized recommendations and AI analyses to assist you in navigating through your next steps.</p>
               <div className={styles.mascots}>
               <Image
                 src="/projectImages/pandaexercising.png"
@@ -170,7 +170,7 @@ export default function Innersight() {
                 alt='sloth'
                 />
                 </div>
-                <p>We felt that Incorporating mascots throughout the app was a way for us to instill a sense of comfort and familiarity, enhancing user experience and creating a welcoming environment</p>
+                <p>Incorporating mascots throughout the app was a way to instill a sense of comfort and familiarity, enhancing user experience and creating a welcoming environment</p>
           
         
                
@@ -228,24 +228,21 @@ export default function Innersight() {
         </div>
         <div className={styles.prototyping}>
           <h1>User Journey Map</h1>
-        <div className={styles.prototypingcontent}>
+        <div className={styles.prototypingcontent1}>
             <div className={styles.lowfi}>
             <div
                 className={`${styles.zoomImage} ${styles.journeymap}`}
                 style={{ backgroundImage: `url('/projectImages/user.png')` }}
                 onMouseMove={(e) => handleMouseMove(e)}
                  />
+            
             <h2>User Journey Map</h2>
             <p className={styles.description}>
-            Prior to transitioning to the wireframes, we created a user journey map tracking the steps a user would undergo when interacting with our app. Our aim was to ensure that our users could effortlessly access our primary features without encountering confusion or unnecessary steps.
+            Prior to transitioning to the wireframes, a user journey map tracking the steps a user would undergo when interacting with the app. The aim was to ensure that the users could effortlessly access the primary features without encountering confusion or unnecessary steps.
             </p>
+          
             </div>
-         
-            
-           
-           
-        
-            </div>
+        </div>
 
         </div>
         <div className={styles.prototyping}>
@@ -260,7 +257,7 @@ export default function Innersight() {
                   />
             <h2>Lo-fi Prototype</h2>
             <p className={styles.description}>
-             We worked together to develop the lo-fi prototype, aiming to maintain a consistent and user-friendly layout. Given that our app targets individuals with mental health concerns, we prioritized preserving its primary purpose: providing a safe space for users to journal their thoughts and emotions without distractions.</p>
+             When developing the lo-fi prototype,  there was an aim to maintain a consistent and user-friendly layout. Given that the app targets individuals with mental health concerns, there was a priority in preserving its primary purpose: providing a safe space for users to journal their thoughts and emotions without distractions.</p>
             </div>
             <div className={styles.lowfi}>
             <div
@@ -271,7 +268,7 @@ export default function Innersight() {
             <h2>High-fi Prototype</h2>
             <p className={styles.description}>
 
-            In crafting the high-fidelity prototype, we deliberately integrated our chosen color palette, mascots, and images to finalize the design. Our aim was to create a cohesive visual identity that resonates with our target audience while ensuring a seamless user experience. By incorporating these elements thoughtfully, we sought to enhance engagement and maintain the app's core focus as a supportive platform for journaling thoughts and emotions, particularly for individuals grappling with mental health concerns
+            In crafting the high-fidelity prototype, the chosen color palette, mascots, and images were integrated to finalize the design. The aim was to create a cohesive visual identity that resonates with the target audience while ensuring a seamless user experience. By incorporating these elements thoughtfully, we sought to enhance engagement and maintain the app's core focus as a supportive platform for journaling thoughts and emotions, particularly for individuals grappling with mental health concerns
             </p>
             </div>
             
@@ -294,7 +291,7 @@ export default function Innersight() {
             </div>
             <div className={styles.rightcontent4}>
               <h1>Amaya Ali</h1>
-              <p>Amaya Ali was our main user persona. She is a 24 year old full time student at BCIT. Amaya has been diagnosed with anxiety and depression and journals conisistently to help her deal with her symptoms.</p>
+              <p>Amaya Ali was the main user persona. She is a 24 year old full time student at BCIT. Amaya has been diagnosed with anxiety and depression and journals conisistently to help her deal with her symptoms.</p>
               <p>Amaya encounters challenges expressing her feelings in writing and often gets stuck in the process. She refrains from carrying her journal outside due to fear of loss or exposure, resorting to the Notes app while on the go. Revisiting past entries triggers intense emotions for her, hindering her ability to reflect, especially during therapist-guided exercises. The prospect of reliving negative experiences is daunting and unwelcome.</p>
               <p>These issues represent Amaya's primary pain points with traditional journaling. Innersight addresses these concerns by offering AI analysis, ensuring journals are securely locked with passwords, and providing prompts to facilitate writing sessions.</p>
               
@@ -309,17 +306,17 @@ export default function Innersight() {
             <div className={styles.codingcontent}>
               <div className={styles.codingleft}>
             <p className={styles.codingdescription}>
-                In sprinting out the frontend development of our screens, we prioritize user experience to ensure seamless interaction and engagement. Here's how we bring the design to life:</p>
-               <ul className={styles.codingdescription} ><strong>User-Centric Design:</strong> Every aspect of our interface is meticulously crafted with the user in mind, aiming for intuitive navigation and clarity in functionality.</ul> 
-               <ul className={styles.codingdescription}> Key Features Accessibility: We emphasize the accessibility of key features, ensuring users can easily locate and utilize them without encountering unnecessary complexity.</ul>
-               <ul className={styles.codingdescription}> Responsive Design: Our design approach prioritizes responsiveness across various devices and screen sizes, guaranteeing a consistent and optimized experience for all users.</ul>
-               <ul className={styles.codingdescription}> Visual Appeal: Through thoughtful use of colors, typography, and visual elements, we enhance the aesthetic appeal of our interface, creating an inviting and engaging environment.</ul>
+                In sprinting out the frontend development of the screens, the main focus was on user experience to ensure seamless interaction and engagement. Here's how the design is brought to life:</p>
+               <ul className={styles.codingdescription} ><strong>User-Centric Design:</strong> Every aspect of the interface is meticulously crafted with the user in mind, aiming for intuitive navigation and clarity in functionality.</ul> 
+               <ul className={styles.codingdescription}> Key Features Accessibility: emphasize the accessibility of key features, ensuring users can easily locate and utilize them without encountering unnecessary complexity.</ul>
+               <ul className={styles.codingdescription}> Responsive Design: The design approach prioritizes responsiveness across various devices and screen sizes, guaranteeing a consistent and optimized experience for all users.</ul>
+               <ul className={styles.codingdescription}> Visual Appeal: Through thoughtful use of colors, typography, and visual elements, it enhanced the aesthetic appeal of the interface, creating an inviting and engaging environment.</ul>
                <ul className={styles.codingdescription}>  Interactive Elements: Interactive components such as buttons, forms, and animations enrich user interaction, fostering a dynamic and immersive experience.</ul>
-               <ul className={styles.codingdescription}> Feedback Integration: We incorporate feedback mechanisms to keep users informed about their actions, providing real-time responses and enhancing overall usability.</ul>
-               <ul className={styles.codingdescription}> Accessibility Considerations: We adhere to accessibility standards, making our interface inclusive and accessible to users with diverse needs and abilities.</ul>
+               <ul className={styles.codingdescription}> Feedback Integration: incorporated feedback mechanisms to keep users informed about their actions, providing real-time responses and enhancing overall usability.</ul>
+               <ul className={styles.codingdescription}> Accessibility Considerations: adhere to accessibility standards, making our interface inclusive and accessible to users with diverse needs and abilities.</ul>
           <h3>Ai Sentiment Analysis and Firebase</h3>
           <p className={styles.codingdescription}>
-          When integrating the AI Sentiment recognition, the developers refined the system to effectively categorize the sentiment of each journal entry. Through text processing techniques, we deconstructed the journal entries into discernible elements, providing users with insights into the positive or negative tones within their entries.
+          When integrating the AI Sentiment recognition, the system was refined to effectively categorize the sentiment of each journal entry. Through text processing techniques, The sentiment deconstructed the journal entries into discernible elements, providing users with insights into the positive or negative tones within their entries.
           </p>
           <p>his process established the framework for the integration of personalized recommendations, leveraging individual sentiment analysis data provided by users.</p>
           
@@ -342,7 +339,7 @@ export default function Innersight() {
  </div>
           <div className={styles.websupplement}>
             <h1>Innersight Website</h1>
-            <p>To enhance the application, we developed an Innersight web app, offering users a desktop-based interface to access their accounts.</p>
+            <p>To enhance the application, an Innersight web app was developed, offering users a desktop-based interface to access their accounts.</p>
             <div className={styles.bottomimage}>
             <Image
             src={'/projectImages/websupplement.png'}
