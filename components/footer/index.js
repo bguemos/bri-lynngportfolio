@@ -17,14 +17,12 @@ export default function Footer() {
             <h3 className={styles.page}>Home</h3>
             </Link>
     
-            <Link href="projects"  className={styles.link}>
+            <Link href="/"  className={styles.link}>
             <h3 className={styles.page}>Projects</h3>
             </Link>
     
     
-            <Link href="Contact"  className={styles.link}>
-            <h3 className={styles.page}>Contact</h3>
-            </Link>
+           
         </div>
    
      <div className={styles.socials}>

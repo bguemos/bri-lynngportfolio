@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Button from '@/components/buttons'
+import Carousel from '@/components/carousel'
 
 export default function Home() {
   return (
@@ -20,24 +21,16 @@ export default function Home() {
         />
       </Head>
       <Header />
-      <main className={styles.main}>
+      <main>
+      <div className={styles.intro}>
+      <h1 className={styles.title1}>Bri-lynn Guemos</h1>
+     
+      </div>
+      <div className={styles.maincontent}>
+      
         <div className={styles.topbackground}> 
-        <div className={styles.imageContainer}>
-          <Image
-            src="/projectImages/code.png"
-            height={461}
-            width={800}
-            alt="code"
-          />
-          <div className={styles.overlay}>
-          <h1 className={styles.title}>Hey, i'm Bri-lynn Guemos</h1>
-          <Button 
-          title="View Projects"
-          link="/projects"
-          />
-          </div>
-        
-        </div>
+        <Carousel/>
+     
         </div>
        
    
@@ -45,18 +38,19 @@ export default function Home() {
        
             <Image
               src="/backgroundBlobs/frontend.png"
-              height={1000}
+              height={900}
               width={1000}
               alt="background"
             />
-          </div>
-          <div className={styles.thirdcontent}>
-            <Image 
+                 <Image 
             src='/me.png'
             height={600}
             width={400}
             alt='me'
           />
+          </div>
+          <div className={styles.thirdcontent}>
+       
           <div className={styles.aboutme}>
           <h1>About Me</h1>
           <div className={styles.horizontalLine}></div>
@@ -68,6 +62,7 @@ export default function Home() {
           </div>
 
         
+      </div>
       </main>
       <Footer />
     </>

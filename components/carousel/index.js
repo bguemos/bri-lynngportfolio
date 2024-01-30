@@ -24,8 +24,6 @@ const settings = {
   speed: 500, // Transition speed in milliseconds
   slidesToShow: 1, // Number of slides to show at a time
   slidesToScroll: 1, // Number of slides to scroll per action
-  autoplay: true, // Autoplay slides
-  autoplaySpeed: 3000, // Autoplay speed in milliseconds
   arrows: true, // Show navigation arrows
   pauseOnHover: true, // Pause autoplay on hover
   responsive: [
