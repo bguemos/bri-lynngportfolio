@@ -1,12 +1,10 @@
 
 
 .slider{
-    height: 500px;
+    height: 650px;
     width: 1000px;
     align-items: center;
-    justify-content: center;
     background-color: var(--tertiary-color);
-
     padding: 5%;
     border-radius: 100px;
     box-shadow: 1px;

@@ -1,8 +1,10 @@
-.main {
+.maincontent {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 10%;
+    justify-content: center;
+    
+   
 }
 
 .describe{
@@ -20,6 +22,7 @@
 .button{
     display: flex;
     margin-left: 75%;
+    margin-bottom: 2%;
 }
 
 

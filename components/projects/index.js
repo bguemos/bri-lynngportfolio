@@ -8,7 +8,7 @@ export default function Project({project}) {
 
     return (
         <>
-        <div className={styles.main}>
+        <div className={styles.maincontent}>
 
             
             
