@@ -1,9 +1,11 @@
-.main{
+.maincontent{
  display: flex;
   flex-direction: column;
   margin: auto;
   overflow-x: hidden;
   overflow-y: hidden;
+  
+
 
    
 }
@@ -19,6 +21,7 @@
   padding: 5%;
   box-shadow: 8px 8px 8px rgba(4, 42, 43, 0.5);
   width: 75%;
+  
  
 }
 .description {
@@ -43,6 +46,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .design {
   display: flex;
@@ -59,6 +64,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   padding-bottom: 5%;
+  flex-wrap: wrap;
 }
 .resumebutton {
   height: 51px;
@@ -89,4 +95,32 @@
 
 .resumebutton:hover {
   background-color: var(--primary-color);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  /* Adjustments for screens up to 768px width */
+  .header {
+    font-size: 8vw; /* Adjust font size for smaller screens */
+  }
+  
+  .topcontent, .concept, .design, .web {
+    width: 80%; /* Adjust width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjustments for screens up to 480px width */
+  .header {
+    font-size: 10vw; /* Adjust font size for even smaller screens */
+  }
+  
+  .topcontent, .concept, .design, .web {
+    width: 95%; /* Adjust width for even smaller screens */
+  }
+}
+@media screen and (max-width: 768px) {
+  .thirdcontent > * {
+    gap: 10%; /* Adjust the value as needed */
+  }
 }

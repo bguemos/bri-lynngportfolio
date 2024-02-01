@@ -9,7 +9,7 @@ import Project from '@/components/projects'
 import Carousel from '@/components/carousel'
 import Button from '@/components/buttons'
 
-export default function Projects() {
+export default function Pagepal() {
   return (
     <>
       <Head>
@@ -23,8 +23,8 @@ export default function Projects() {
         />
       </Head>
       <Header />
-      <main>
-        <div className={styles.main}>
+      <main className={styles.main}>
+        <div className={styles.maincontent}>
             <h1 className={styles.header}>PagePal</h1>
             <div className={styles.description}>
             <div className={styles.topcontent}>

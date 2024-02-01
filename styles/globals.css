@@ -10,11 +10,9 @@
 main {
   font-family: 'Anybody', sans-serif;
   margin: auto;
-  max-width: var(--max-width);
-  overflow-x: hidden;
-  margin: 2%;
-  overflow-x: hidden;
   overflow-y: hidden;
+  overflow-x: hidden;
+
  
   
 }

@@ -21,7 +21,7 @@ export default function Home() {
         />
       </Head>
       <Header />
-      <main>
+      <main className={styles.main}>
       <div className={styles.intro}>
       <h1 className={styles.title1}>Bri-lynn Guemos</h1>
      

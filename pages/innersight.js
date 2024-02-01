@@ -36,9 +36,9 @@ export default function Innersight() {
         />
       </Head>
       <Header />
-      <main>
+      <main className={styles.main}>
        <h1 className={styles.header}>Innersight</h1>
-       <div className={styles.main}>
+       <div className={styles.maincontent}>
         <div className={styles.mascotrow}>
         <div className={styles.firstcontent}>
             <h2>Innersight Mobile Application</h2>

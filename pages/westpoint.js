@@ -23,8 +23,8 @@ export default function Westpoint() {
         />
       </Head>
       <Header />
-      <main>
-        <div className={styles.main}>
+      <main className={styles.main}>
+        <div className={styles.maincontent}>
             <h1 className={styles.header}>Westpoint Hotel</h1>
             <div className={styles.description}>
             <div className={styles.topcontent}>
@@ -53,7 +53,7 @@ export default function Westpoint() {
             </div>
             <Image
             src="/projectImages/westpoint.png"
-            height={500}
+            height={490}
             width={700}
             alt='interface'
             />

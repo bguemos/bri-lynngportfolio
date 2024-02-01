@@ -56,7 +56,7 @@ const settings = {
           description:
             'Innersight is a mental health journaling application that utilizes AI sentiment analysis to examine your previous journal entries, identifying patterns in behaviors or events that may contribute to your symptoms. The aim of this app is to enhance your comprehension of your emotional well-being, while also assisting you in pinpointing elements in your daily life that bring you joy.',
             imageHeight: 400,
-            imageWidth: 500,
+            imageWidth: 350,
             link: '/innersight'
 
         },
@@ -71,12 +71,21 @@ const settings = {
           },
           {
             image: '/projectImages/westpoint.png',
-            imageHeight: 400,
-            imageWidth: 650,
+            imageHeight: 350,
+            imageWidth: 610,
             title: 'Westpoint Hotel',
             description:
              'WestPoint Hotel is a luxury resort on the beautiful island of the Carribean. This Wordpress website was designed to  emote feelings of exclusivity,luxury and elegance. This website includes 4 logo designs, specific typography and  images to extend Westpoint hotels branding into their online presence.',
              link: '/westpoint'
+          },
+          {
+            image: '/projectImages/borderless.png',
+            imageHeight: 400,
+            imageWidth: 350,
+            title: 'Borderless',
+            description:
+             'Borderless, a web application tailored for refugees newly arrived in Canada, offers a personalized experience to ease their transition. It begins with a brief quiz inquiring about their country of origin and the Canadian province they are settling into. Based on these geographic variables, Borderless customizes their homepage, providing access to local resources and suggesting activities within their new community',
+             link: '/borderless'
           },
       ];
 
