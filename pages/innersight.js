@@ -418,7 +418,7 @@ export default function Innersight() {
             
               <Button 
               title="View Other Projects"
-              link="/projects"
+              link="/"
               />
 
             </div>
