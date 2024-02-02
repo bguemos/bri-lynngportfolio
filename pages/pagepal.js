@@ -61,7 +61,7 @@ export default function Pagepal() {
             <div className={styles.design}>
             <h1>Design</h1>
             <p>
-             In crafting this application's design, our primary aim was simplicity. Given its nature as an ebook organizer, our focus leaned heavily towards functionality over visual embellishments. We prioritized highlighting features that enhance user experience, minimizing any distractions that might detract from its primary purpose.</p>
+             In crafting this application's design, The primary aim was simplicity. Given its nature as an ebook organizer, the focus leaned heavily towards functionality over visual embellishments. The priority was on highlighting features that enhance user experience, minimizing any distractions that might detract from its primary purpose.</p>
             </div>
             <div className={styles.thirdcontent}>
               <Image className={styles.web}
