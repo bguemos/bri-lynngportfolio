@@ -24,6 +24,7 @@ export default function Home() {
       <main className={styles.main}>
       <div className={styles.intro}>
       <h1 className={styles.title1}>Bri-lynn Guemos</h1>
+      <h2>Hey I'm Bri, Take a look at my projects!</h2>
      
       </div>
       <div className={styles.maincontent}>

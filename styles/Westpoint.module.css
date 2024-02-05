@@ -1,7 +1,6 @@
 .maincontent{
     display: flex;
      flex-direction: column;
-     margin: auto;
      overflow-x: hidden;
      overflow-y: hidden;
    
@@ -25,6 +24,7 @@
      display: flex;
      flex-direction: row;
      align-items: center;
+     flex-direction: wrap;
      
    }
    .concept {
@@ -50,6 +50,7 @@
      display: flex;
      flex-direction: column;
      width: 50%;
+     flex-wrap: wrap;
    }
    .web{
      border: .5px solid lightgrey;
@@ -116,9 +117,10 @@
       font-size: 10vw; /* Adjust font size for even smaller screens */
     }
     
-    .topcontent, .concept, .design, .web {
+    .topcontent, .concept, .design, .web, .description {
       width: 95%; /* Adjust width for even smaller screens */
     }
+  
   }
   @media screen and (max-width: 768px) {
     .thirdcontent > * {
