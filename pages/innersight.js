@@ -84,7 +84,7 @@ export default function Innersight() {
           <Image
           src="/projectImages/userpersona.png"
           height={640}
-          width={640}
+          width={600}
           alt='userpersona'
           />
           </div>
