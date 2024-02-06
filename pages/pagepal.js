@@ -26,6 +26,7 @@ export default function Pagepal() {
       <main className={styles.main}>
         <div className={styles.maincontent}>
             <h1 className={styles.header}>PagePal</h1>
+        
             <div className={styles.description}>
             <div className={styles.topcontent}>
             <h2>PagePal</h2>
@@ -41,12 +42,22 @@ export default function Pagepal() {
           </div>
            
             </div>
+          <div className={styles.projimage}>
           
-        
+         <Image
+         src="/projectImages/pagepallogo.png"
+         height={250}
+         width={250}
+         alt='page'
+         
+         />
+         </div>
             </div>
-            <h1>Concept</h1>
+         
+          
             <div className={styles.secondcontent}>
             <div className={styles.concept}>
+            <h1>Concept</h1>
              <p>This ebook manager, developed using the React framework, simplifies book organization and access. Leveraging the Google Books API, users can effortlessly add and manage books across customizable bookshelves.</p>
               <p>With flexible search options by title or author and convenient filtering capabilities, users can easily locate and organize their digital library to suit their preferences. Whether adding a single book or creating multiple bookshelves, this platform streamlines the process, providing users with a user-friendly and efficient ebook management solution</p>
 
@@ -58,12 +69,21 @@ export default function Pagepal() {
             alt='interface'
             />
             </div>
+            <div className={styles.designrow}>
             <div className={styles.design}>
             <h1>Design</h1>
             <p>
              In crafting this application's design, The primary aim was simplicity. Given its nature as an ebook organizer, the focus leaned heavily towards functionality over visual embellishments. The priority was on highlighting features that enhance user experience, minimizing any distractions that might detract from its primary purpose.</p>
             </div>
+            <Image
+            src="/projectImages/bookshelf.png"
+            height={300}
+            width={400}
+            alt='bookshelf'
+            />
+            </div>
             <div className={styles.thirdcontent}>
+              <div className={styles.photodescription}>
               <Image className={styles.web}
                src="/projectImages/addbook.png"
                height={300}
@@ -71,6 +91,9 @@ export default function Pagepal() {
                alt='add'
               
               />
+              <h3>Add a book to your bookshelf</h3>
+              </div>
+              <div className={styles.photodescription}>
                <Image className={styles.web}
                src="/projectImages/addshelf.png"
                height={300}
@@ -78,6 +101,9 @@ export default function Pagepal() {
                alt='add'
               
               />
+              <h3>Add a shelf to your Homepage</h3>
+              </div>
+                 <div className={styles.photodescription}>
                <Image className={styles.web}
                src="/projectImages/inshelf.png"
                height={300}
@@ -85,6 +111,8 @@ export default function Pagepal() {
                alt='add'
               
               />
+              <h3>View the books within a shelf</h3>
+              </div>
 
             </div>
 

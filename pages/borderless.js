@@ -42,12 +42,20 @@ export default function Borderless() {
           </div>
            
             </div>
-          
+            <div className={styles.projimage}>
+           <Image 
+           src="/projectImages/borderlesslogo.png"
+           height={300}
+           width={300}
+           alt='logo'
+           />
+           </div>
         
             </div>
-            <h1>Concept</h1>
+        
             <div className={styles.secondcontent}>
             <div className={styles.concept}>
+            <h1>Concept</h1>
              <p>Designed with Next.js, this web applications main purpose is to extend a welcoming embrace to refugees joining our communities. Its core mission is to ensure individuals feel secure, equipped with essential resources, and empowered to explore and integrate into themselves into their new community with confidence.</p>
               <p>By filtering the users' results and curating a personalized dashboard with local resources and stories from home, the platform ensures that newcomers receive tailored support and guidance, enhancing their sense of belonging and facilitating their integration into their new community.</p>
 

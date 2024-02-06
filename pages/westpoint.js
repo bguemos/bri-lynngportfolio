@@ -33,7 +33,7 @@ export default function Westpoint() {
             <p>Project Roles: Designer, developed in Wordpress</p>
             <div className={styles.buttoncontainer}>
           <button className={styles.resumebutton}
-            onClick={() => window.open('https://www.figma.com/proto/WzznboxjDFKUenSajAT4V6/West-Point-Hotel---Prototype?type=design&node-id=426-16264&t=4wPXwKX0qwMZJF3Y-1&scaling=scale-down&page-id=1%3A3&starting-point-node-id=426%3A16264&show-proto-sidebar=1&mode=design', '_blank')}
+            onClick={() => window.open('https://www.figma.com/proto/WzznboxjDFKUenSajAT4V6/West-Point-Hotel---Prototype?type=design&node-id=516-12550&t=3G9ZQNhSu4HtJw7M-1&scaling=min-zoom&page-id=1%3A3&starting-point-node-id=516%3A12550&show-proto-sidebar=1&mode=design', '_blank')}
            
               >
             <h4 className={styles.rtitle}>View Prototype</h4>
@@ -41,12 +41,20 @@ export default function Westpoint() {
           </div>
            
             </div>
-          
-        
+          <div className={styles.projimage}>
+           <Image
+              src="/projectImages/westpointlogo.png"
+              height={250}
+              width={200}
+              alt='westpoint'
+           
+           />
+           </div>
             </div>
-            <h1>Concept</h1>
+          
             <div className={styles.secondcontent}>
             <div className={styles.concept}>
+             <h1>Concept</h1>
              <p>The concept behind the Westpoint Hotel website encapsulates the luxury and tranquility nestled within the heart of the Caribbean. Embracing the beauty of its surroundings, the website invites visitors on a virtual journey of relaxation.</p>
               <p>From the moment users land on the homepage, they are greeted with a blend of captivating imagery and elegant design elements, echoing the refined ambiance of the resort. Each page intricately weaves together narratives of indulgence and comfort, offering a glimpse into the experiences that would await the guests.</p>
 
@@ -101,14 +109,14 @@ export default function Westpoint() {
             <div className={styles.thirdcontent}>
               <Image className={styles.web}
                src="/projectImages/dining.png"
-               height={900}
+               height={1000}
                width={400}
                alt='add'
               
               />
                <Image className={styles.web}
                src="/projectImages/experiences.png"
-               height={900}
+               height={1000}
                width={400}
                alt='add'
               
@@ -117,14 +125,14 @@ export default function Westpoint() {
                <div className={styles.thirdcontent}>
                <Image className={styles.web}
                src="/projectImages/accom.png"
-               height={900}
+               height={1000}
                width={400}
                alt='add'
               
               />
               <Image className={styles.web}
                src="/projectImages/occasions.png"
-               height={900}
+               height={1000}
                width={400}
                alt='add'
               

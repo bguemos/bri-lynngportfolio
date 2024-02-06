@@ -52,29 +52,7 @@ export default function Home() {
           </div>
           <div className={styles.thirdcontent}>
        
-          <div className={styles.aboutme}>
-          <h1>About Me</h1>
-          <div className={styles.horizontalLine}></div>
-          <p>Hello! I’m Bri-lynn, I am a dedicated Front End Developer and UI/UX Designer. With a solid foundation in the hospitality industry and a keen eye for design, I bring a unique perspective to the world of development. Some of My skills include HTML, CSS, javascript, and react native. With years of experience in the hospitality industry, I've cultivated a strong customer-centric approach. </p>
-          <p>This perspective influences my design choices, ensuring a delightful user experience. Beyond the world of coding, I'm passionate about fitness. In my spare time, you'll find me training to become a certified spin instructor. I believe in the balance of mind and body, applying the same dedication to my fitness journey as I do to my development projects.</p>
-          <div className={styles.thirdbuttons}>
-          <button className={styles.resumebutton}
-            onClick={() => window.open('https://drive.google.com/file/d/1vkSSjWxWgkldoDBDuX-uLoP2NsLAH6bD/view?usp=sharing', '_blank')}
-            title="View Resume"
-              >
-            <h4 className={styles.rtitle}>View Resume</h4>
-              </button>
-            <Button
-            title="Contact Me"
-            link="mailto:bguemos.work@gmail.com"
-            />
-
-
-          </div>
-        
-          </div>
-
-          </div>
+        </div>
 
         
       </div>

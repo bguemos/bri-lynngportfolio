@@ -7,20 +7,15 @@ import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Project from '@/components/projects'
 import Button from '@/components/buttons'
+import { useState } from 'react'
 
 
 export default function Innersight() {
+  const [isZoomed, setIsZoomed] = useState(false);
 
-
-  function handleClick(e) {
-    const element = e.target;
-    const rect = element.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    const bgPosX = `${(x / rect.width) * 100}%`;
-    const bgPosY = `${(y / rect.height) * 100}%`;
-    element.style.backgroundPosition = `${bgPosX} ${bgPosY}`;
-}
+  const handleImageClick = () => {
+      setIsZoomed(!isZoomed);
+  };
 
 
   return (
@@ -47,13 +42,15 @@ export default function Innersight() {
             <h4 className={styles.innerapp}>Project Roles: Front-end Developer, UI/UX Designer</h4>
 
         </div>
+        <div className={styles.mascotcontainer}>
         <Image
         src='/projectImages/cutemascots.png'
-        height={400}
-        width={300}
+        height={250}
+        width={150}
         alt='mascots'
         
         />
+        </div>
         </div>
         <div className={styles.overview}>
             <div className={styles.leftcontent}>
@@ -83,7 +80,7 @@ export default function Innersight() {
           <p>Through the user research, The user persona was constructed</p>
           <Image
           src="/projectImages/userpersona.png"
-          height={640}
+          height={700}
           width={600}
           alt='userpersona'
           />
@@ -250,12 +247,16 @@ export default function Innersight() {
           
             </div>
         </div>
-        <Image
-        src="/projectImages/userjourney.png"
-        height={600}
-        width={600}
-        alt='user journey'
-        />
+        <div className={isZoomed ? styles.zoomedContainer : ''}>
+                            <Image
+                                className={styles.journeymapimg}
+                                src="/projectImages/userjourney.png"
+                                height={600}
+                                width={600}
+                                alt='user journey'
+                                onClick={handleImageClick}
+                            />
+                        </div>
 
         </div>
 
@@ -278,9 +279,11 @@ export default function Innersight() {
             />
          
             </div>
+            <div className={styles.uxexplanation}>
             <h2 className={styles.prototypeheader}>Lo-fi Prototype</h2>
             <p className={styles.description}>
              When developing the lo-fi prototype,  there was an aim to maintain a consistent and user-friendly layout. Given that the app targets individuals with mental health concerns, there was a priority in preserving its primary purpose: providing a safe space for users to journal their thoughts and emotions without distractions.</p>
+             </div>
             </div>
             <div className={styles.lowfi}>
             <div className={styles.wireframe}>
@@ -298,12 +301,13 @@ export default function Innersight() {
             />
          
             </div>
-          
+            <div className={styles.uxexplanation}>
             <h2 className={styles.prototypeheader}>High-fi Prototype</h2>
             <p className={styles.description}>
 
             In crafting the high-fidelity prototype, the chosen color palette, mascots, and images were integrated to finalize the design. The aim was to create a cohesive visual identity that resonates with the target audience while ensuring a seamless user experience. By incorporating these elements thoughtfully, we sought to enhance engagement and maintain the app's core focus as a supportive platform for journaling thoughts and emotions, particularly for individuals grappling with mental health concerns
             </p>
+            </div>
             </div>
             
            
