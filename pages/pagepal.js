@@ -75,12 +75,7 @@ export default function Pagepal() {
             <p>
              In crafting this application's design, The primary aim was simplicity. Given its nature as an ebook organizer, the focus leaned heavily towards functionality over visual embellishments. The priority was on highlighting features that enhance user experience, minimizing any distractions that might detract from its primary purpose.</p>
             </div>
-            <Image
-            src="/projectImages/bookshelf.png"
-            height={300}
-            width={400}
-            alt='bookshelf'
-            />
+            
             </div>
             <div className={styles.thirdcontent}>
               <div className={styles.photodescription}>
@@ -125,7 +120,7 @@ export default function Pagepal() {
 
 
     </main>
-    <Footer/>
+   
       </>
 
   )

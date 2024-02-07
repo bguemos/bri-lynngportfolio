@@ -439,7 +439,7 @@ export default function Innersight() {
         
         
       </main>
-      <Footer />
+  
     </>
   )
 }

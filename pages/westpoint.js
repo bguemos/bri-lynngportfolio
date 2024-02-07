@@ -150,7 +150,7 @@ export default function Westpoint() {
 
 
     </main>
-    <Footer/>
+
       </>
 
   )

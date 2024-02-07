@@ -27,10 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/innersight": [
+    "/pagepal": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/innersight.js"
+      "static/chunks/pages/pagepal.js"
     ]
   },
   "ampFirstPages": []
