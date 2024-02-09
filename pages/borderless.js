@@ -43,7 +43,7 @@ export default function Borderless() {
            
             </div>
             <div className={styles.projimage}>
-           <Image 
+           <Image className={styles.projlogo}
            src="/projectImages/borderlesslogo.png"
            height={300}
            width={300}
@@ -60,7 +60,7 @@ export default function Borderless() {
               <p>By filtering the users' results and curating a personalized dashboard with local resources and stories from home, the platform ensures that newcomers receive tailored support and guidance, enhancing their sense of belonging and facilitating their integration into their new community.</p>
 
             </div>
-            <Image
+            <Image className={styles.mainscreencomp}
             src="/projectImages/borderless.png"
             height={500}
             width={400}
@@ -107,7 +107,7 @@ export default function Borderless() {
               </div>
 
             </div>
-            <div className={styles.thirdcontent}>
+            <div className={styles.thirdcontent3}>
               <Image className={styles.web}
                src="/projectImages/clothing.png"
                height={400}
@@ -148,7 +148,7 @@ export default function Borderless() {
 
 
     </main>
-    <Footer/>
+  
       </>
 
   )

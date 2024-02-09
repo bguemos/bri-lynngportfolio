@@ -44,7 +44,7 @@ export default function Pagepal() {
             </div>
           <div className={styles.projimage}>
           
-         <Image
+         <Image className={styles.projlogo}
          src="/projectImages/pagepallogo.png"
          height={250}
          width={250}
@@ -62,7 +62,7 @@ export default function Pagepal() {
               <p>With flexible search options by title or author and convenient filtering capabilities, users can easily locate and organize their digital library to suit their preferences. Whether adding a single book or creating multiple bookshelves, this platform streamlines the process, providing users with a user-friendly and efficient ebook management solution</p>
 
             </div>
-            <Image
+            <Image className={styles.mainscreencomp}
             src="/projectImages/page.png"
             height={500}
             width={700}

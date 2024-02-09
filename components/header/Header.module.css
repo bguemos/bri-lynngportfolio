@@ -51,6 +51,6 @@
     }
 
     .links {
-        gap: 1rem; /* Adjusted for smaller screens */
+        gap: 1rem; 
     }
 }

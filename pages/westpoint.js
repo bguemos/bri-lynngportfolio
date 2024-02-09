@@ -42,7 +42,7 @@ export default function Westpoint() {
            
             </div>
           <div className={styles.projimage}>
-           <Image
+           <Image className={styles.projlogo}
               src="/projectImages/westpointlogo.png"
               height={250}
               width={200}
@@ -59,7 +59,7 @@ export default function Westpoint() {
               <p>From the moment users land on the homepage, they are greeted with a blend of captivating imagery and elegant design elements, echoing the refined ambiance of the resort. Each page intricately weaves together narratives of indulgence and comfort, offering a glimpse into the experiences that would await the guests.</p>
 
             </div>
-            <Image
+            <Image className={styles.mainscreencomp}
             src="/projectImages/westpoint.png"
             height={490}
             width={700}
@@ -106,7 +106,7 @@ export default function Westpoint() {
               </div>
 
             </div>
-            <div className={styles.thirdcontent}>
+            <div className={styles.thirdcontent3}>
               <Image className={styles.web}
                src="/projectImages/dining.png"
                height={1000}
@@ -122,7 +122,7 @@ export default function Westpoint() {
               
               />
                </div>
-               <div className={styles.thirdcontent}>
+               <div className={styles.thirdcontent3}>
                <Image className={styles.web}
                src="/projectImages/accom.png"
                height={1000}
