@@ -407,4 +407,40 @@
     transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
   
- 
+
+
+/* Media Queries */
+@media screen and (max-width: 414px) {
+  
+ .main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+ .mascotrow{
+  display: flex;
+  flex-direction: column;
+ }
+
+ .firstcontent{
+  width: 250px;
+  margin-bottom: 10px;
+ }
+ .overview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .leftcontent{
+  width: 275px;
+  margin-left: 50px;
+ }
+ .userpersona {
+  display: none;
+ }
+.leftcontent1{
+  width: 300px;
+}
+
+}

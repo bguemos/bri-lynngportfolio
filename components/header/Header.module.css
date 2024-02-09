@@ -15,6 +15,7 @@
 
 .logo {
     margin-left: 2rem; 
+    padding-top: 1%;
 }
 
 .links {
@@ -28,7 +29,8 @@
 .page {
     font-family: var(--font-mono);
     color: black;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 900;
     text-decoration-line: none;
 }
 

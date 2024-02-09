@@ -77,8 +77,8 @@ export default function Innersight() {
           <h2>User Persona</h2>
           <div className={styles.personacontent}>
             <div className={styles.leftpersona}>
-          <p>Through the user research, The user persona was constructed</p>
-          <Image
+          <p className={styles.personaheader}>Through the user research, The user persona was constructed</p>
+          <Image className={styles.personaimage}
           src="/projectImages/userpersona.png"
           height={700}
           width={600}

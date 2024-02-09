@@ -21,7 +21,9 @@ export default function Home() {
         />
       </Head>
       <Header />
+    
       <main className={styles.main}>
+    
         <div className={styles.intro}>
         <h1>Hey, I'm Bri-lynn</h1>
         <h3>I am a front-end developer and UX Designer. Take a look at some of my projects.</h3>
@@ -38,8 +40,11 @@ export default function Home() {
             />
         </div>
         </div>
+        <div className={styles.carouselcontainer}>
+        <Carousel/>
+        </div>
        
-       <Carousel/>
+
      
       </main>
    
