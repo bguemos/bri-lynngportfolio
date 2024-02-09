@@ -1,85 +1,27 @@
-
-.intro{
+.main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20%;
   margin-left: 5%;
-  display: flex;
-  flex-direction: column;
-
-}
-.maincontent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow-x: hidden;
-  overflow-y: hidden;
-
-
-}
-.title1{
-  font-size: 72px;
-  font-weight: 900;
- 
-}
-
-
-
-
-
-.middlecontent {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   
 }
-
-
-.title{
-  max-width: 200px;
-  font-size: 40px;
-}
-
-.thirdcontent {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  align-items: start;
-  justify-content: space-evenly;
-
-
- 
-
-  
-}
-.horizontalLine {
-  border-top: 2px solid var(--secondary-color); 
-  width: 800px; 
-}
-
-.aboutme{
+.intro{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 700px;
-  line-height: 1.5;
-  font-weight: 300;
-  padding-bottom: 10%;
-
-
-
+  width: 400px;
 }
-
 .thirdbuttons {
   display: flex;
   flex-direction: row;
-  gap: 20%;
+  gap: 5%;
   margin-top: 2%;
   
 }
 
 .resumebutton {
-  height: 51px;
-  width: 200px;
+  height: 40px;
+  width: 150px;
   background-color: white;
   border-radius: 50px;
   box-shadow: 4px 4px 6px rgba(4, 42, 43, 0.5);

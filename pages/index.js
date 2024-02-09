@@ -22,40 +22,25 @@ export default function Home() {
       </Head>
       <Header />
       <main className={styles.main}>
-      <div className={styles.intro}>
-      <h1 className={styles.title1}>Bri-lynn Guemos</h1>
-      <h2>Hey I'm Bri, Take a look at my projects!</h2>
-     
-      </div>
-      <div className={styles.maincontent}>
-      
-        <div className={styles.topbackground}> 
-        <Carousel/>
-     
-        </div>
-       
-   
-        <div className={styles.middlecontent}>
-       
-            <Image
-              src="/backgroundBlobs/frontend.png"
-              height={900}
-              width={1000}
-              alt="background"
+        <div className={styles.intro}>
+        <h1>Hey, I'm Bri-lynn</h1>
+        <h3>I am a front-end developer and UX Designer. Take a look at some of my projects.</h3>
+        <div className={styles.thirdbuttons}>
+          <button className={styles.resumebutton}
+            onClick={() => window.open('https://drive.google.com/file/d/1vkSSjWxWgkldoDBDuX-uLoP2NsLAH6bD/view?usp=sharing', '_blank')}
+            title="View Resume"
+              >
+            <h4 className={styles.rtitle}>View Resume</h4>
+              </button>
+            <Button 
+            title="Contact Me"
+            link="mailto:bguemos.work@gmail.com"
             />
-                 <Image 
-            src='/me.png'
-            height={600}
-            width={400}
-            alt='me'
-          />
-          </div>
-          <div className={styles.thirdcontent}>
-       
         </div>
-
-        
-      </div>
+        </div>
+       
+       <Carousel/>
+     
       </main>
    
     </>

@@ -3,25 +3,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 700px;
     
    
 }
 
-.describe{
-    width: 1000px ;
-}
 
-.gradient {
-    background-image: url('/backgroundBlobs/innersightblob.png');
-    background-size: contain; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    border-radius: 20;
-}
+
 
 .button{
     display: flex;
-    margin-left: 75%;
     margin-bottom: 2%;
 }
 

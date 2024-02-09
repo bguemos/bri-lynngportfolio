@@ -28,9 +28,7 @@ export default function Project({project}) {
             </div>
 
             <h1>{title}</h1>
-            <div className={styles.describe}>
-            <p>{description}</p>
-            </div>
+            <h3>{description}</h3>
            <div className={styles.button}>
            <Button title="Project Details" 
            link={link}

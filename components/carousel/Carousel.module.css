@@ -1,19 +1,16 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the column width as needed */
+    gap: 20px; /* Adjust the gap between items */
+    padding: 20px; /* Adjust the padding as needed */
 
-
-.slider{
-    height: 650px;
-    width: 1000px;
-    align-items: center;
-    background-color: var(--tertiary-color);
-    padding: 5%;
-    border-radius: 100px;
-    box-shadow: 1px;
-      box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
-   
-  
 }
 
-.maincontent{
+.projectItem {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
-    flex-direction: column;
 }

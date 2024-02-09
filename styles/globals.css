@@ -4,6 +4,10 @@
   --primary-color: #FF85AF;
   --secondary-color: #042A2B;
   --tertiary-color: #EAF4F4;
+  background-image: url('/backgroundBlobs/backgroundgraadient.png');
+  background-repeat: repeat;
+  background-size: cover; 
+  background-position: center center;
   overflow-x: hidden;
 
 }
