@@ -11,7 +11,7 @@
     left: 0;
     width: 100%;
     z-index: 1000;
-    border-bottom: 1px solid var(--secondary-color);
+    box-shadow: 4px 4px 4px rgba(4, 42, 43, 0.5);
 }
 
 .logo {

@@ -45,7 +45,7 @@ export default function Westpoint() {
            <Image className={styles.projlogo}
               src="/projectImages/westpointlogo.png"
               height={250}
-              width={200}
+              width={185}
               alt='westpoint'
            
            />
