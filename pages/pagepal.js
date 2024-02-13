@@ -64,8 +64,8 @@ export default function Pagepal() {
             </div>
             <Image className={styles.mainscreencomp}
             src="/projectImages/page.png"
-            height={500}
-            width={700}
+            height={400}
+            width={600}
             alt='interface'
             />
             </div>
