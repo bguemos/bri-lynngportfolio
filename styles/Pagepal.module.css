@@ -118,8 +118,8 @@
 .rtitle {
   text-decoration: none;
   font-family: var(--font-mono);
-  font-weight: 300;
   font-size: 16px;
+  font-weight: 400;
   color: black;
 }
 

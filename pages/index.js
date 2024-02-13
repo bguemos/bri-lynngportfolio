@@ -25,8 +25,8 @@ export default function Home() {
       <main className={styles.main}>
     
         <div className={styles.intro}>
-        <h1>Hey, I'm Bri-lynn</h1>
-        <h3>I am a front-end developer and UX Designer. Take a look at some of my projects.</h3>
+        <h1 className={styles.title}>Hey, I'm Bri-lynn</h1>
+        <h3 className={styles.description}>I am a front-end developer and UX Designer. Take a look at some of my projects!</h3>
         <div className={styles.thirdbuttons}>
           <button className={styles.resumebutton}
             onClick={() => window.open('https://drive.google.com/file/d/1vkSSjWxWgkldoDBDuX-uLoP2NsLAH6bD/view?usp=sharing', '_blank')}
@@ -40,9 +40,9 @@ export default function Home() {
             />
         </div>
         </div>
-        <div className={styles.carouselcontainer}>
+   
         <Carousel/>
-        </div>
+  
        
 
      

@@ -391,10 +391,12 @@ export default function Innersight() {
 
             </video>
             <div className={styles.buttoncontainer}>
-          <Button 
-          title="View Code"
-          link="https://github.com/Mariessa-Pinto/innersight.git"
-          />
+            <div className={styles.buttoncontainer}>
+             <button className={styles.resumebutton}
+          onClick={() => window.open('https://github.com/Mariessa-Pinto/innersight.git', '_blank')}>
+            <h4 className={styles.rtitle}>View Code</h4>
+        </button>
+          </div>
           </div>
       
             </div>

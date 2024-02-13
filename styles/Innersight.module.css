@@ -406,6 +406,35 @@
     transform: scale(1.5); /* You can adjust the scaling factor as needed */
     transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
+
+.resumebutton {
+  height: 51px;
+  width: 200px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 4px 4px 6px rgba(4, 42, 43, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+
+
+}
+
+
+.rtitle {
+  text-decoration: none;
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+
+
+.resumebutton:hover {
+  background-color: var(--primary-color);
+}
   
 
 
