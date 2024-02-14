@@ -27,10 +27,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/pagepal": [
+    "/borderless": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/pagepal.js"
+      "static/chunks/pages/borderless.js"
+    ],
+    "/innersight": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/innersight.js"
     ],
     "/westpoint": [
       "static/chunks/webpack.js",

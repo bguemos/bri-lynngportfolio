@@ -9,12 +9,12 @@
   background-size: cover; 
   background-position: center center;
   overflow-x: hidden;
+  margin: 1%;
 
 }
 
 main {
   font-family: 'Anybody', sans-serif;
-  margin: auto;
   padding-top: 2%;
 }
 
