@@ -3,7 +3,7 @@
   flex-direction: column;
   overflow-x: hidden;
   overflow-y: hidden;
-  margin: 2%;
+
   
 
 
@@ -22,7 +22,7 @@
 .mascotrow {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -455,6 +455,7 @@
  .firstcontent{
   width: 250px;
   margin-bottom: 10px;
+  padding: 1%;
  }
  .overview {
   display: flex;
