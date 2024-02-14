@@ -313,7 +313,12 @@
     margin-right: 5%;
 
   }
-
+  
+  .webcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .websupplement{
     height: 715px;
     width: 85%;
@@ -342,6 +347,7 @@
     box-shadow: 8px 8px 8px rgba(4, 42, 43, 0.5);
     padding: 5%;
     margin-top: 5%;
+    margin-right: 2%;
   
   }
 

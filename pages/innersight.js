@@ -403,7 +403,7 @@ export default function Innersight() {
             </div>
          
        
- 
+         <div className={styles.webcontainer}>
           <div className={styles.websupplement}>
             <h1>Innersight Website</h1>
             <p>To enhance the application, an Innersight web app was developed, offering users a desktop-based interface to access their accounts.</p>
@@ -427,6 +427,7 @@ export default function Innersight() {
               link="/"
               />
 
+            </div>
             </div>
             </div>
 
