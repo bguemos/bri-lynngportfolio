@@ -3,6 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/innersight": "pages/innersight.js",
-  "/westpoint": "pages/westpoint.js"
+  "/westpoint": "pages/westpoint.js",
+  "/innersight": "pages/innersight.js"
 }
