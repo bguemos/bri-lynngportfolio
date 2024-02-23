@@ -41,4 +41,18 @@
         padding: 5px;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .gridContainer {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+        gap: 10px; 
+        padding: 10px; 
+    }
+
+    .projectItem {
+        padding: 5px;
+    }
+
+
+}
   
