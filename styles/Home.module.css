@@ -166,15 +166,5 @@
   }
 }
 
-@media screen and (min-width: 1025px) {
-  .main {
-    justify-content: space-around;
-    margin-top: 10%;
-  }
-
-  .intro {
-    width: 600px;
-  }
-}
 
 
