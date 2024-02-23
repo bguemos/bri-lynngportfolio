@@ -62,7 +62,7 @@ export default function Innersight() {
 
             </div>
             <div className={styles.rightcontent}>
-                <Image
+                <Image className={styles.iphonepicture}
                 src="/projectImages/img01.png"
                 height={500}
                 width={600}
@@ -87,7 +87,7 @@ export default function Innersight() {
           </div>
 
           <div className={styles.features}>
-          <p>By identifying the essential requirements of the target audience, Innersight determined three primary features. They are:</p>
+          <p className={styles.personaintro}>By identifying the essential requirements of the target audience, Innersight determined three primary features. They are:</p>
             <Image
             src="/features/aiinsights.png"
             height={150}

@@ -448,7 +448,7 @@
 
 
 /* Media Queries */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 430px) and (min-width: 414px) {
   
  .main{
   display: flex;
@@ -475,11 +475,28 @@
   width: 275px;
   margin-left: 50px;
  }
- .userpersona {
-  display: none;
- }
+
 .leftcontent1{
   width: 300px;
 }
+.iphonepicture {
+  height: 300px;
+}
+.personaimage{
+  display: none;
+}
+.personacontent {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.personaheader {
+  width: 300px;
+}
+.personaintro{
+  width: 300px;
+}
+
 
 }
