@@ -61,7 +61,7 @@
 }
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 430px) and (min-width: 414px) {
   
  
   .main {
@@ -69,12 +69,58 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
    
   }
 
   .intro {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 16px;
     width: 300px;
   }
+  
+}
+@media screen and (max-width: 390px) {
+  
+ 
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+   
+  }
+
+  .intro {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 16px;
+    width: 300px;
+  }
+  .thirdbuttons{
+   width: 250px;
+  }
+
   
 }
 
@@ -92,24 +138,43 @@
   .intro {
     width: 300px;
   }
+  .thirdbuttons{
+    display: flex;
+    flex-direction: row;
+  }
   
 }
 
+
+
+
 @media screen and (max-width: 1024px) {
-  
- 
   .main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
   }
 
   .intro {
     width: 500px;
   }
-  
+
+  .thirdbuttons{
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .main {
+    justify-content: space-around;
+    margin-top: 10%;
+  }
+
+  .intro {
+    width: 600px;
+  }
 }
 
 
