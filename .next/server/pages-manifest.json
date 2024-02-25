@@ -3,6 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/westpoint": "pages/westpoint.js",
-  "/": "pages/index.js",
-  "/borderless": "pages/borderless.js"
+  "/": "pages/index.js"
 }
