@@ -3,11 +3,13 @@
   flex-direction: column;
   overflow-x: hidden;
   overflow-y: hidden;
+}
 
-  
-
-
-   
+.main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .projimage{
@@ -40,40 +42,52 @@
   gap: 4%;
   
 }
+
 .concept {
-  display: flex;
-  flex-direction: column;
-  padding: 5%;
-  border-radius: 20px;
-  width: 40%;
-  height: 300px;
-  border: .5px solid lightgrey;
-  box-shadow: 8px 8px 8px rgba(4, 42, 43, 0.5);
-  background: white;
-}
-
-.secondcontent {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 2%;
+padding: 5%;
+width: 50%;
 
 }
+
 .design {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  border-radius: 20px;
-  border: .5px solid lightgrey;
-  padding: 3%;
-  box-shadow: 8px 8px 8px rgba(4, 42, 43, 0.5);
-  background-color: white;
-  margin-bottom: 2%;
-  width: 45%;
+  padding: 5%;
+  width: 40%;
 }
 
 .designrow{
   margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10%;
+}
+
+.styleguide {
+  border: .5px solid lightgrey;
+  box-shadow: 8px 8px 8px rgba(4, 42, 43, 0.5);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5%;
+   margin-top: 5%;
+  width: 50%;
+  height: 800px;
+  margin-bottom: 5%;
+  
+
+}
+.colors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.typography {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 
@@ -119,6 +133,9 @@
   font-size: 16px;
   font-weight: 400;
   color: black;
+}
+.hex {
+  border: 1px solid lightgray;
 }
 
 

@@ -42,41 +42,90 @@ export default function Pagepal() {
           </div>
            
             </div>
-          <div className={styles.projimage}>
-          
-         <Image className={styles.projlogo}
-         src="/projectImages/pagepallogo.png"
-         height={250}
-         width={250}
-         alt='page'
-         
-         />
-         </div>
+            <Image 
+             src='/projectImages/pagepalhands.png'
+            height={400}
+            width={500}
+            alt='hands'
+            
+            />
+   
             </div>
          
           
-            <div className={styles.secondcontent}>
+            <div className={styles.description}>
             <div className={styles.concept}>
             <h1>Concept</h1>
              <p>This ebook manager, developed using the React framework, simplifies book organization and access. Leveraging the Google Books API, users can effortlessly add and manage books across customizable bookshelves.</p>
               <p>With flexible search options by title or author and convenient filtering capabilities, users can easily locate and organize their digital library to suit their preferences. Whether adding a single book or creating multiple bookshelves, this platform streamlines the process, providing users with a user-friendly and efficient ebook management solution</p>
 
             </div>
-            <Image className={styles.mainscreencomp}
+
+            <Image    
+            className={styles.mainscreencomp}
             src="/projectImages/page.png"
-            height={400}
-            width={600}
+            height={490}
+            width={700}
             alt='interface'
             />
+
+         
             </div>
-            <div className={styles.designrow}>
+        <div className={styles.designrow}>
             <div className={styles.design}>
             <h1>Design</h1>
             <p>
              In crafting this application's design, The primary aim was simplicity. Given its nature as an ebook organizer, the focus leaned heavily towards functionality over visual embellishments. The priority was on highlighting features that enhance user experience, minimizing any distractions that might detract from its primary purpose.</p>
             </div>
+            <div className={styles.projimage}>
+          
+                  <Image className={styles.projlogo}
+                  src="/projectImages/pagepallogo.png"
+                  height={250}
+                  width={250}
+                  alt='page'
+                  
+                  />
+          </div>
+        </div>
+        <div className={styles.styleguide}>
+          <div className={styles.colors}>
+            <h1> Colour Pallet</h1>
+            <Image className={styles.hex}
+            src='/projectImages/ffffff.png'
+            height={150}
+            width={150}
+            />
+            <h2>#FFFFFF</h2>
+            <Image className={styles.hex}
+            src='/projectImages/a6633c.png'
+            height={150}
+            width={150}
+            />
+            <h2>#A6633C</h2>
+            <Image className={styles.hex}
+            src='/projectImages/593122.png'
+            height={150}
+            width={150}
+            />
+            <h2>#593122</h2>
+
+          </div>
+          <div className={styles.typography}>
+            <h1>Typography</h1>
+           
+            <Image 
+            src='/projectImages/pagepalfont.png'
+            height={650}
+            width={300}
+            alt='font'
             
-            </div>
+            />
+            <h4>Quicksand Font Family</h4>
+
+          </div>
+
+        </div>
             <div className={styles.thirdcontent}>
               <div className={styles.photodescription}>
               <Image className={styles.web}

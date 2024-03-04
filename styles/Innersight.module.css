@@ -455,6 +455,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
  }
  .mascotrow{
   display: flex;
@@ -497,6 +498,83 @@
 .personaintro{
   width: 300px;
 }
+.personaimage {
+  height: 300px;
+  width: 200px;
+}
 
+.leftcontent2 {
+  width: 200px;
+}
+
+.personacontent{
+  display: none;
+}
+
+.userpersona{
+  display: none;
+}
+
+.designprocess {
+  margin-left: 35%;
+}
+.webcontainer {
+  display: none;
+}
+
+.code{
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+}
+.codingdescription{
+  font-size: 12px;
+}
+.coding{
+  width: 40%;
+  height: 600px;
+  justify-content: center;
+}
+
+.leftcontent2{
+  display: flex;
+  flex-direction: column;
+}
+.rightcontent3{
+  display: flex;
+  flex-direction: column;
+}
+.wireframe{
+  display: flex;
+  flex-direction: column;
+}
+.lowfi {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+}
+.uxdesign {
+  margin-left: 35%;
+  width: 200px;
+}
+
+
+@media (max-width: 600px) {
+  .main {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .logo{
+      display: none;
+  }
+  .links {
+      margin: 0;
+  }
+
+  .links {
+      gap: 1rem; 
+  }
+}
 
 }

@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/westpoint": "pages/westpoint.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/innersight": "pages/innersight.js",
+  "/pagepal": "pages/pagepal.js"
 }

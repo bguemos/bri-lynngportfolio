@@ -57,3 +57,21 @@
         gap: 1rem; 
     }
 }
+
+@media (max-width: 414px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo{
+        display: none;
+    }
+    .links {
+        margin: 0;
+    }
+
+    .links {
+        gap: 1rem; 
+    }
+}

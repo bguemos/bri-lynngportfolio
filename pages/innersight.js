@@ -122,7 +122,7 @@ export default function Innersight() {
             <hr className={styles.line}></hr>
 
         </div>
-        <h1>Design Process</h1>
+        <h1 className={styles.designprocess}>Design Process</h1>
   
 
         <div className={styles.overview}>
@@ -256,12 +256,12 @@ export default function Innersight() {
                                 alt='user journey'
                                 onClick={handleImageClick}
                             />
-                        </div>
+                      </div>
 
         </div>
 
 
-        <h1>UX Design and Prototype</h1>
+        <h1 className={styles.uxdesign}>UX Design and Prototype</h1>
         <div className={styles.prototypingcontent}>
             <div className={styles.lowfi}>
               <div className={styles.wireframe}>
