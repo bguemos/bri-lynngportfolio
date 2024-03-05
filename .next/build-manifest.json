@@ -31,11 +31,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/innersight.js"
-    ],
-    "/pagepal": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/pagepal.js"
     ]
   },
   "ampFirstPages": []
