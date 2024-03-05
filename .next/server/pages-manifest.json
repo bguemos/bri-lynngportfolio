@@ -4,5 +4,5 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/innersight": "pages/innersight.js",
-  "/borderless": "pages/borderless.js"
+  "/pagepal": "pages/pagepal.js"
 }

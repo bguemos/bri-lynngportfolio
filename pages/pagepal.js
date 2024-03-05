@@ -88,7 +88,6 @@ export default function Pagepal() {
                   />
           </div>
         </div>
-        <div>
         <div className={styles.styleguide}>
           <div className={styles.colors}>
             <h1> Colour Pallet</h1>
@@ -127,7 +126,6 @@ export default function Pagepal() {
           </div>
 
         </div>
-     </div>
             <div className={styles.thirdcontent}>
               <div className={styles.photodescription}>
               <Image className={styles.web}
