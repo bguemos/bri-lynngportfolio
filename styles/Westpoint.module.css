@@ -354,3 +354,143 @@
  }
 
 }
+@media (max-width: 390px) and  (min-width: 375px )  { 
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .header{
+    margin-top: 10%;
+    font-size: 20px;
+  }
+  .firstcontent{
+    display: flex;
+    flex-direction: column;
+  }
+  .overview{
+    width: 300px;
+  }
+  .projectoverview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+  }
+  .persona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .personaimage{
+    height: 400px;
+    width: 400px;
+  }
+  .rightpersona{
+    width: 300px;
+    font-size: 12px;
+  }
+  .featurepic{
+    height: 100px;
+    width: 100px;
+  }
+  .features{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .personaintro {
+    width: 300px;
+    font-size: 12px;
+  }
+  
+  .leftcontent1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .colorpallet{
+    display: flex;
+    flex-direction: column;
+  }
+  .hexdescription {
+    width: 300px;
+  }
+  .logogrid{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  .logos3{
+    width: 190px;
+    height: 70px;
+  }
+ .logos{
+    height: 100px;
+    width: 100px;
+ }
+ .mascots{
+    display: flex;
+    flex-direction: column;
+ }
+ .userflow{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .journeymapimg{
+    height: 500px;
+    width: 400px;
+ }
+
+ .lowfi{
+    display: flex;
+    flex-direction: column;
+ }
+ .prototyping2{
+    display: flex;
+    flex-direction: column;
+ }
+ .code{
+    display: flex;
+    flex-direction: column;
+ }
+ .webcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .webdescription{
+    width: 400px;
+    font-size: 12px;
+    margin-left: 1%;
+ }
+ .buttongroup{
+    display: none;
+ }
+
+ .websiteimg{
+    height: 300px;
+    width: 500px;
+ }
+ .interface{
+  display: flex;
+  flex-direction: column;
+ }
+
+ .description{
+  font-size: 12px;
+  margin-left: 1%;
+ }
+
+ .web{
+  height: 220px;
+  width: 100px;
+ }
+
+}
