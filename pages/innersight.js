@@ -132,7 +132,7 @@ export default function Innersight() {
  
 <div className={styles.leftcontent1}>
 <h1 className={styles.designprocess}>Design Process</h1>
-<h2>Colour pallete</h2>
+<h2>Colour palette</h2>
 
 <div className={styles.colorpallet}>
 <p className={styles.hexdescription}>In crafting the design, the goal was to ensure a high level of user-friendliness. The monochromatic purple palette was chosen to enhance feelings of calmness, safety, and relaxation.</p>
