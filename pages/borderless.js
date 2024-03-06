@@ -24,15 +24,33 @@ export default function Borderless() {
       </Head>
       <Header />
       <main className={styles.main}>
-        <div className={styles.maincontent}>
-            <h1 className={styles.header}>Borderless</h1>
-            <div className={styles.description}>
-            <div className={styles.topcontent}>
-            <h2>Borderless</h2>
-            <p> Borderless, a web application tailored for refugees newly arrived in Canada, offers a personalized experience to ease their transition. It begins with a brief quiz inquiring about their country of origin and the Canadian province they are settling into.</p>
-            <p>Based on these geographic variables, Borderless customizes their homepage, providing access to local resources and suggesting activities within their new community. Additionally, the platform shares stories of hope from their country of origin, fostering a sense of connection and belonging amidst their journey.</p>
-            <p>Project Roles: Developer, UX Designer</p>
-            <div className={styles.buttoncontainer}>
+       <h1 className={styles.header}>Borderless Web Application</h1>
+   
+
+  <div className={styles.firstcontent}>
+
+       <div className={styles.overview}>
+       <h4>Project Overview</h4>
+         <h4 className={styles.innerapp}>Borderless, a web application tailored for refugees newly arrived in Canada, offers a personalized experience to ease their transition. It begins with a brief quiz inquiring about their country of origin and the Canadian province they are settling into.
+         Based on these geographic variables, Borderless customizes their homepage, providing access to local resources and suggesting activities within their new community. Additionally, the platform shares stories of hope from their country of origin, fostering a sense of connection and belonging amidst their journey.
+         </h4>
+
+       </div>
+       <div className={styles.overview}>
+        <h4>identified Problem and the solution</h4>
+       <h4 className={styles.innerapp}>Borderless addresses the critical need for personalized support and guidance for refugees transitioning to life in Canada. The application solves the challenge of navigating a new environment by tailoring its content to the specific needs and circumstances of each user. By offering a brief quiz to understand the refugee's country of origin and chosen Canadian province, Borderless creates a personalized homepage that provides access to local resources and suggests community activities relevant to their new location. </h4>
+
+       </div>
+</div>
+
+     <div className={styles.purplediv}>
+            <Image 
+            src= '/projectImages/borderless.png'
+            height={400}
+            width={300}
+            alt='iphones'
+            />
+          <div className={styles.buttoncontainer}>
           <button className={styles.resumebutton}
             onClick={() => window.open('https://www.figma.com/proto/hdIdkVjbjpEIa1zUWJmwMO/Set-F-%E2%80%93-BorderLess?type=design&node-id=419-1587&t=NQ90VJZ3nGcUfFqC-1&scaling=scale-down&page-id=419%3A1056&starting-point-node-id=419%3A1587&mode=design', '_blank')}
            
@@ -40,40 +58,23 @@ export default function Borderless() {
             <h4 className={styles.rtitle}>View Prototype</h4>
               </button>
           </div>
-           
-            </div>
-            <div className={styles.projimage}>
-           <Image className={styles.projlogo}
-           src="/projectImages/borderlesslogo.png"
-           height={300}
-           width={300}
-           alt='logo'
-           />
-           </div>
-        
-            </div>
-        
-            <div className={styles.secondcontent}>
-            <div className={styles.concept}>
-            <h1>Concept</h1>
-             <p>Designed with Next.js, this web applications main purpose is to extend a welcoming embrace to refugees joining our communities. Its core mission is to ensure individuals feel secure, equipped with essential resources, and empowered to explore and integrate into themselves into their new community with confidence.</p>
-              <p>By filtering the users' results and curating a personalized dashboard with local resources and stories from home, the platform ensures that newcomers receive tailored support and guidance, enhancing their sense of belonging and facilitating their integration into their new community.</p>
+      </div>
+      <div className={styles.line}>
+        <hr></hr>
+      </div>
 
-            </div>
-            <Image className={styles.mainscreencomp}
-            src="/projectImages/borderless.png"
-            height={500}
-            width={400}
-            alt='interface'
-            />
-            </div>
-            <div className={styles.design}>
-            <h1>Design</h1>
-            <p>In the design approach, simplicity and user-friendliness were paramount considerations for crafting an interface that resonates with clarity and ease of navigation. Drawing inspiration from Canada's breathtaking natural landscapes, borderless uses earthy tones to evoke a sense of connection with the country's stunning outdoors. By embracing clean dashboards and uncluttered layouts, The aim was to create an interface that prioritizes accessibility and intuitive interaction. </p>
-            <p>The choice of earthy colours not only pays homage to Canada's natural beauty but also enhances the overall user experience, ensuring that the platform's key features remain readily accessible to all users.</p>
-            </div>
-            <div className={styles.thirdcontent}>
-              <div className={styles.hex}>
+  
+
+  
+
+ 
+<div className={styles.leftcontent1}>
+<h1 className={styles.designprocess}>Design Process</h1>
+<h2>Colour palette</h2>
+
+<div className={styles.colorpallet}>
+<p className={styles.hexdescription}>In the design approach, simplicity and user-friendliness were paramount considerations for crafting an interface that resonates with clarity and ease of navigation. Drawing inspiration from Canada's breathtaking natural landscapes, borderless uses earthy tones to evoke a sense of connection with the country's stunning outdoors.</p>
+<div className={styles.heximage}>
                 <Image
                 src="/projectImages/7aaf71.png"
                 height={100}
@@ -83,7 +84,7 @@ export default function Borderless() {
                 <p>#7AAF71</p>
 
               </div>
-              <div className={styles.hex}>
+              <div className={styles.heximage}>
               <Image
                 src="/projectImages/73baf4.png"
                 height={100}
@@ -95,7 +96,7 @@ export default function Borderless() {
 
 
               </div>
-              <div className={styles.hex}>
+              <div className={styles.heximage}>
               <Image
                 src="/projectImages/424344.png"
                 height={100}
@@ -106,22 +107,66 @@ export default function Borderless() {
 
               </div>
 
-            </div>
-            <div className={styles.thirdcontent3}>
-              <Image className={styles.web}
+
+
+
+</div>
+
+  <h2>Logo</h2>
+  <div className={styles.logogrid}>
+  <p>The logo was created to combine the earthy tones that represent Canada, the mountains and how Canada can be a home for everyone.</p>
+              <Image
+               src='/projectImages/borderlesslogo.png'
+               height={140}
+               width={150}
+               alt='initial logo'
+              />
+            
+             <p>The final logo with the wordmark.</p>
+              <Image
+              src='/projectImages/borderlesswordmark.png'
+              height={150}
+              width={290}
+              alt='final logo'
+              
+               />
+
+  </div>
+  </div>
+  <div className={styles.line}>
+        <hr></hr>
+  </div>
+          
+
+
+<div className={styles.userflow}>
+
+<p className={styles.description}>
+<h2>The Interface</h2>
+
+The choice of earthy colours not only pays homage to Canada's natural beauty but also enhances the overall user experience, ensuring that the platform's key features remain readily accessible to all users.
+</p>
+          
+  <div className={styles.interface}>
+  <div className={styles.photodescription}>
+  <Image className={styles.web}
                src="/projectImages/clothing.png"
                height={400}
                width={150}
                alt='add'
               
               />
-               <Image className={styles.web}
+              </div>
+              <div className={styles.photodescription}>
+              <Image className={styles.web}
                src="/projectImages/food.png"
                height={400}
                width={150}
                alt='add'
               
               />
+              </div>
+               <div className={styles.photodescription}>
                <Image className={styles.web}
                src="/projectImages/stats.png"
                height={300}
@@ -129,7 +174,10 @@ export default function Borderless() {
                alt='add'
               
               />
-                <Image className={styles.web}
+            
+              </div>
+              <div className={styles.photodescription}>
+              <Image className={styles.web}
                src="/projectImages/stories.png"
                height={300}
                width={150}
@@ -137,18 +185,28 @@ export default function Borderless() {
               
               />
 
-            </div>
+            
+              </div>
+                            
+                            
+   </div>
 
-
+</div>
           
 
+  <div className={styles.line}>
+        <hr></hr>
+  </div>
+
+ 
+ 
 
 
-        </div>
 
+    
 
-    </main>
-  
+  </main>
+   
       </>
 
   )
