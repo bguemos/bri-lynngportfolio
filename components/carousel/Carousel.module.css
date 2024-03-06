@@ -1,0 +1,64 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the column width as needed */
+    gap: 20px; /* Adjust the gap between items */
+    padding: 20px; /* Adjust the padding as needed */
+
+}
+
+.projectItem {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    transition: background-color 0.3s ease;
+}
+
+
+.projectItem:hover {
+    background-color: inherit; 
+}
+
+
+
+@media screen and (max-width: 414px) {
+    .gridContainer {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+        gap: 10px; 
+        padding: 10px; 
+    }
+
+    .projectItem {
+        padding: 5px;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    .gridContainer {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+        gap: 10px; 
+        padding: 10px; 
+    }
+
+    .projectItem {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .gridContainer {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+        gap: 10px; 
+        padding: 10px; 
+    }
+
+    .projectItem {
+        padding: 5px;
+    }
+
+
+}
+  

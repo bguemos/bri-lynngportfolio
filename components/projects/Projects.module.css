@@ -1,0 +1,21 @@
+.maincontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    
+   
+}
+
+
+
+
+.button{
+    display: flex;
+    margin-bottom: 2%;
+}
+
+
+
+

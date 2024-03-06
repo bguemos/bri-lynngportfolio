@@ -1,0 +1,340 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin: 2%;
+}
+
+.header{
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start;
+}
+
+.firstcontent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 600px;
+    margin-left: 5%;
+  
+}
+
+.innerapp{
+    font-weight: 300;
+}
+
+.purplediv{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C5C7F7;
+}
+.line {
+    width: 100%;
+    margin: 0;
+    margin-top: 1%;
+}
+
+.projectoverview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.leftcontent {
+    width: 40%;
+    
+}
+
+.rightcontent {
+    width: 40%;
+}
+
+.persona {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.personaintro{
+    width: 25%;
+}
+
+.rightpersona{
+    width: 40%;
+}
+.features {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.feature1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.featuredescription{
+    width: 200px;
+}
+.designprocess{
+    display: flex;
+    align-items: flex-start;
+}
+.leftcontent1{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+
+    justify-content: center;
+}
+.colorpallet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.hexdescription{
+    width: 500px;
+    text-align: left;
+}
+.heximages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logogrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the column width as needed */
+    gap: 8px; /* Adjust the gap between items */
+    padding: 10px; /* Adjust the padding as needed */
+}
+.mascots{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.mascotgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: auto auto; /* Three rows */
+    gap: 20px; /* Adjust the gap between items */
+    padding: 5px; /* Adjust the padding as needed */
+  
+}
+
+.userflow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.description{
+    width: 350px;
+}
+.prototypingcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.protodescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lowfi{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    gap: 50px;
+}
+
+.screenshotsimg{
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px rgba(4, 42, 43, 0.5);
+
+
+}
+.prototyping2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 50px;
+   
+
+}
+.code{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.video{
+    height: 500px;
+    width: 300px;
+    border-radius: 60px;
+}
+.vid{
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C5C7F7;
+}
+.resumebutton{
+    height: 51px;
+    width: 200px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px rgba(4, 42, 43, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.buttoncontainer{
+    margin-top: 2%;
+}
+
+.rtitle{
+    text-decoration: none;
+    font-weight: 'bold';
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.webcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+   
+}
+
+.webdescription{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    
+}
+.buttongroup {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.resumebutton:hover {
+    background-color: var(--primary-color);
+}
+.slide-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .slide-in.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+    .firstcontent {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .overview,
+    .purplediv {
+        width: 90%; /* Adjust as needed */
+    }
+
+    .leftcontent,
+    .rightcontent {
+        width: 90%; /* Adjust as needed */
+    }
+
+    .persona {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rightpersona {
+        width: 90%; /* Adjust as needed */
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feature1 {
+        margin-bottom: 20px; /* Adjust as needed */
+    }
+
+    .colorpallet,
+    .logogrid,
+    .mascots,
+    .prototypingcontent,
+    .lowfi,
+    .prototyping2,
+    .code,
+    .vid,
+    .webcontainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .resumebutton,
+    .buttoncontainer {
+        width: 90%; /* Adjust as needed */
+        margin: 2% 0;
+    }
+
+    .webcontainer {
+        margin-left: 0; /* Adjust as needed */
+    }
+}
+
+/* For screens larger than 600px */
+@media (min-width: 601px) {
+    /* Add your specific styles for larger screens here */
+}
