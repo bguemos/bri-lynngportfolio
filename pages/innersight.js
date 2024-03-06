@@ -91,7 +91,7 @@ export default function Innersight() {
           <p className={styles.personaintro}>By identifying the essential requirements of the target audience, Innersight determined three primary features. They are:</p>
   
           <div className={styles.feature1}>
-          <Image
+          <Image className={styles.featurepic}
             src="/features/aiinsights.png"
             height={200}
             width={200}
@@ -102,7 +102,7 @@ export default function Innersight() {
           </div>
 
          <div className={styles.feature1}>
-         <Image
+         <Image className={styles.featurepic}
             src="/features/emostats.png"
             height={200}
             width={200}
@@ -112,7 +112,7 @@ export default function Innersight() {
 
          </div>
          <div className={styles.feature1}>
-         <Image
+         <Image className={styles.featurepic}
             src="/features/recs.png"
             height={200}
             width={200}
@@ -187,14 +187,14 @@ export default function Innersight() {
   <h2>Logo</h2>
   <div className={styles.logogrid}>
   <p>For the logo design, it used the same monochromatic pallet, the initial logo was designed to look like a person kneeling.</p>
-              <Image
+              <Image className={styles.logos}
                src='/projectImages/initiallogo.png'
                height={120}
                width={120}
                alt='initial logo'
               />
               <p>After considering the concept of the app, a new logo was designed that was more open and hopeful creating the concept of an open flower that can be percieved as open pages of a book.</p>
-              <Image
+              <Image className={styles.logos}
               src='/projectImages/logo.png'
               height={120}
               width={120}
@@ -202,7 +202,7 @@ export default function Innersight() {
               
                />
              <p>The final logo with the wordmark</p>
-              <Image
+              <Image className={styles.logos3}
               src='/projectImages/logo:wordmark.png'
               height={70}
               width={250}
@@ -438,7 +438,7 @@ Prior to transitioning to the wireframes, a user journey map tracking the steps 
            </div>
      
           
-            <Image
+            <Image className={styles.websiteimg}
             src={'/projectImages/websupp.png'}
             height={600}
             width={1000}
