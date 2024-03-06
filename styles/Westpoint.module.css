@@ -1,360 +1,276 @@
-.maincontent{
+
+.main {
     display: flex;
-     flex-direction: column;
-     overflow-x: hidden;
-     overflow-y: hidden;
-   
-      
-   }
-   .header{
-     font-size: 62px;
-     font-weight: 800;
-   }
-   
-   
-   .topcontent {
-     border-radius: 20px;
-     border: .5px solid lightgrey;
-     padding: 5%;
-     box-shadow: 8px 8px 8px rgba(4, 42, 43, 0.5);
-     width: 50%;
-     background-color: white;
-    
-   }
-   .description {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     flex-direction: wrap;
-     gap: 5%;
-     
-   }
-   .projimage {
-    border-radius: 20px;
-    border: .5px solid lightgrey;
-    padding: 5%;
-    box-shadow: 8px 8px 8px rgba(4, 42, 43, 0.5);
-    background-color: white;
-   }
-   .concept {
-     display: flex;
-     flex-direction: column;
-     padding: 5%;
-     border-radius: 20px;
-     width: 40%;
-     height: 300px;
-     border: .5px solid lightgrey;
-     box-shadow: 8px 8px 8px rgba(4, 42, 43, 0.5);
-     background-color: white;
-   }
-   
-   .secondcontent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin: 2%;
+}
+
+.header{
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start;
+}
+
+.firstcontent {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 2%;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 600px;
+    margin-left: 5%;
   
-  }
-   .design {
-     display: flex;
-     flex-direction: column;
-     width: 50%;
-     flex-wrap: wrap;
-     display: flex;
-     flex-direction: column;
-     width: 50%;
-     border-radius: 20px;
-     border: .5px solid lightgrey;
-     padding: 3%;
-     box-shadow: 8px 8px 8px rgba(4, 42, 43, 0.5);
-     background-color: white;
-     margin-bottom: 2%;
-     width: 45%;
-   }
-   .web{
-     border: .5px solid lightgrey;
-     box-shadow: 8px 8px 8px rgba(4, 42, 43, 0.5);
-     border-radius: 15px;
-     background-color: white;
-   }
-   .thirdcontent{
-     display: flex;
-     flex-direction: row;
-     justify-content: space-evenly;
-     padding-bottom: 5%;
-     flex-wrap: wrap;
-   }
-   .thirdcontent3{
+}
+
+.innerapp{
+    font-weight: 300;
+}
+
+.purplediv{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #192D2B;
+
+}
+.line {
+    width: 100%;
+    margin: 0;
+    margin-top: 1%;
+}
+
+.projectoverview {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-bottom: 5%;
-    flex-wrap: wrap;
-  }
-   .resumebutton {
-     height: 51px;
-     width: 200px;
-     background-color: white;
-     border-radius: 50px;
-     box-shadow: 4px 4px 6px rgba(4, 42, 43, 0.5);
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     border: none;
-   
-   
-   }
-   .buttoncontainer {
-     margin-left: 75%;
-   }
-   
-   .rtitle {
-     text-decoration: none;
-     font-family: var(--font-mono);
-     font-size: 16px;
-     font-weight: 400;
-     color: black;
-   }
-   
-   .hex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   }
-   
-   
-   .resumebutton:hover {
-     background-color: var(--primary-color);
-   }
-/* Media Queries */
-@media screen and (max-width: 414px) {
-  
-  .header {
-    margin-top: 10%; 
-    font-size: 32px;
-  }
+    padding: 5%;
+}
 
-  .maincontent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1%;
-  }
-  
-  .projlogo{
-    height: 200px;
-    width: 120px;
-  }
-
-  .topcontent {
+.leftcontent {
     width: 40%;
-  }
-  .description{
-    font-size: 10px;
-    gap: 11%;
-  }
-.buttoncontainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 25%;
-  
-}
-  .resumebutton{
-  
-    height: 30px;
-    width: 100px;
-   
-  }
-
-.rtitle{
-  font-size: 10px;
-
-}
-.secondcontent {
-  width: 750px;
-  margin-top: 10%;
-
-
+    
 }
 
-.concept {
-  font-size: 10px;
-}
-
-.mainscreencomp{
-  height: 300px;
-  width: 500px;
-}
-.design {
-  width: 375px;
-  font-size: 10px;
-}
-
-.web {
-  height: 600px;
-  width: 250px;
-}
-.thirdcontent {
- width:100%;
- padding-bottom: 40%;
-}
-
-.thirdcontent3{
-  gap: 20%;
-}
-
-.hex {
-  height: 20px;
-  width: 20px;
-}
-}
-
-@media screen and (max-width: 430px) {
-  
-  .header {
-    margin-top: 10%; 
-    font-size: 32px;
-  }
-
-  .maincontent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1%;
-  }
-  
-  .projlogo{
-    height: 200px;
-    width: 120px;
-  }
-
-  .topcontent {
+.rightcontent {
     width: 40%;
-  }
-  .description{
-    font-size: 10px;
-    gap: 11%;
-  }
-.buttoncontainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 25%;
-  
-}
-  .resumebutton{
-  
-    height: 30px;
-    width: 100px;
-   
-  }
-
-.rtitle{
-  font-size: 10px;
-
-}
-.secondcontent {
-  width: 750px;
-  margin-top: 10%;
-
-
 }
 
-.concept {
-  font-size: 10px;
+.persona {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.mainscreencomp{
-  height: 300px;
-  width: 500px;
-}
-.design {
-  width: 375px;
-  font-size: 10px;
+.personaintro{
+    width: 25%;
 }
 
-.web {
-  height: 600px;
-  width: 250px;
-}
-.thirdcontent {
- width:100%;
- padding-bottom: 40%;
+.rightpersona{
+    width: 40%;
 }
 
-.thirdcontent3{
-  gap: 20%;
-}
 
-.hex {
-  height: 20px;
-  width: 20px;
-}
-}
-@media screen and (max-width: 820px) and (min-width: 768px) {
-  
-  .header {
-    margin-top: 10%; 
-    font-size: 32px;
-  }
 
-  .maincontent {
+.designprocess{
+    display: flex;
+    align-items: flex-start;
+}
+.leftcontent1{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+
+    justify-content: center;
+}
+.colorpallet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+.hexdescription{
+    width: 500px;
+    text-align: left;
+}
+.heximages{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1%;
-  }
   
-  .projlogo{
-    height: 300px;
+}
+
+.logogrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the column width as needed */
+    gap: 25px; /* Adjust the gap between items */
+    padding: 10px; /* Adjust the padding as needed */
+}
+
+
+
+.userflow {
+    display: flex;
+    flex-direction: column;
+  
+}
+.web{
+    border: .5px solid lightgrey;
+    box-shadow: 8px 8px 8px rgba(4, 42, 43, 0.5);
+    border-radius: 15px;
+  }
+.description{
+    width: 500px;
+}
+.prototypingcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.protodescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.screenshotsimg{
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px rgba(4, 42, 43, 0.5);
+
+
+}
+
+
+
+
+
+.resumebutton{
+    height: 51px;
     width: 200px;
-  }
-
-  .topcontent {
-    width: 40%;
-  }
-  .description{
-    font-size: 16px;
-    gap: 11%;
-  }
-.buttoncontainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 25%;
-  
+    background-color: rgb(246, 246, 246);
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px rgba(4, 42, 43, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
 }
-  .resumebutton{
-  
-    height: 30px;
-    width: 100px;
-   
-  }
+.buttoncontainer{
+    margin-top: 2%;
+}
 
 .rtitle{
-  font-size: 10px;
-
-}
-.secondcontent {
-  width: 1100px;
-  margin-top: 10%;
-
-
-}
-
-.concept {
-  font-size: 16px;
+    text-decoration: none;
+    font-weight: 'bold';
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
-.design {
-  width: 600px;
-  font-size: 16px;
+.buttongroup {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
 }
 
-.web {
-  height: 1100px;
-  width: 450px;
+.resumebutton:hover {
+    background-color: var(--primary-color);
 }
+.interface {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.photodescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+    .firstcontent {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .overview,
+    .purplediv {
+        width: 90%; /* Adjust as needed */
+    }
+
+    .leftcontent,
+    .rightcontent {
+        width: 90%; /* Adjust as needed */
+    }
+
+    .persona {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rightpersona {
+        width: 90%; /* Adjust as needed */
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feature1 {
+        margin-bottom: 20px; /* Adjust as needed */
+    }
+
+    .colorpallet,
+    .logogrid,
+    .mascots,
+    .prototypingcontent,
+    .lowfi,
+    .prototyping2,
+    .code,
+    .vid,
+    .webcontainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .resumebutton,
+    .buttoncontainer {
+        width: 90%; /* Adjust as needed */
+        margin: 2% 0;
+    }
+
+    .webcontainer {
+        margin-left: 0; /* Adjust as needed */
+    }
+}
+
+/* For screens larger than 600px */
+@media (min-width: 601px) {
+    /* Add your specific styles for larger screens here */
 }

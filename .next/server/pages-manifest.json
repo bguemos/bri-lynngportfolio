@@ -3,6 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/innersight": "pages/innersight.js",
-  "/pagepal": "pages/pagepal.js"
+  "/westpoint": "pages/westpoint.js",
+  "/borderless": "pages/borderless.js",
+  "/innersight": "pages/innersight.js"
 }

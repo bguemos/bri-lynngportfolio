@@ -37,10 +37,12 @@ export default function Carousel() {
         },
     ];
 
+
+
     return (
         <div className={styles.gridContainer}>
             {projects.map((project, index) => (
-                <div className={styles.projectItem} key={index}>
+                <div className={styles.projectItem}  key={index}>
                     <Project
                         key={index}
                         project={project}

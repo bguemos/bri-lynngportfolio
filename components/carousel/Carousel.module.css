@@ -13,6 +13,12 @@
     border: 1px solid lightgray;
     box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
+    transition: background-color 0.3s ease;
+}
+
+
+.projectItem:hover {
+    background-color: inherit; 
 }
 
 
