@@ -35,6 +35,14 @@ export default function Carousel() {
             description: 'Web Application',
             link: '/borderless'
         },
+        {
+            image: '/projectImages/rescueradar.png',
+            imageHeight: 200,
+            imageWidth: 300,
+            title: 'RescueRadar',
+            description: 'Web Application',
+            link: '/rescueradar'
+        },
     ];
 
 
