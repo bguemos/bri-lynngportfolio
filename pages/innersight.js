@@ -35,7 +35,7 @@ export default function Innersight() {
        <div className={styles.overview}>
        <h4>Project Overview</h4>
          <h4 className={styles.innerapp}>Innersight was developed to provide individuals who maintain regular journals with a secure platform to express their emotions and thoughts conveniently and universally. 
-         By employing AI sentiment recognition, Innersight assesses previous journal entries, assisting users in better understanding their emotions and behaviours. </h4>
+         By employing AI sentiment recognition, Innersight assesses previous journal entries, assisting users in better understanding their emotions and behaviours. My roles were UX Designer and front-end developer </h4>
 
        </div>
        <div className={styles.overview}>

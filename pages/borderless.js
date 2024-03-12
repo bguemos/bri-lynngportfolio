@@ -32,7 +32,7 @@ export default function Borderless() {
        <div className={styles.overview}>
        <h4>Project Overview</h4>
          <h4 className={styles.innerapp}>Borderless, a web application tailored for refugees newly arrived in Canada, offers a personalized experience to ease their transition. It begins with a brief quiz inquiring about their country of origin and the Canadian province they are settling into.
-         Based on these geographic variables, Borderless customizes their homepage, providing access to local resources and suggesting activities within their new community. Additionally, the platform shares stories of hope from their country of origin, fostering a sense of connection and belonging amidst their journey.
+         Based on these geographic variables, Borderless customizes their homepage, providing access to local resources and suggesting activities within their new community. Additionally, the platform shares stories of hope from their country of origin, fostering a sense of connection and belonging amidst their journey. My roles were UX designer and front-end developer
          </h4>
 
        </div>
