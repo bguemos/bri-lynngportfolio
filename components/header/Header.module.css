@@ -1,7 +1,7 @@
 .main {
     height: 60px;
     width: 100%;
-    background-color:#ffff;
+    background-color:#ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,6 +11,7 @@
     left: 0;
     width: 100%;
     z-index: 1000;
+    border-bottom: 1px solid lightgray;
  
 }
 
