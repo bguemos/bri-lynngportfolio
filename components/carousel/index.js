@@ -1,70 +1,56 @@
 import styles from './Carousel.module.css';
-import Project from '../projects';
+import Link from 'next/link';
 
 export default function Carousel() {
     const projects = [
         {
-            image: '/projectImages/innersightphones.png',
-            title: 'innersight',
+            image: '/projectImages/innersight24.jpg',
+            title: 'Innersight',
             description: 'Mobile Application',
-            imageHeight: 200,
-            imageWidth: 200,
             link: '/innersight'
         },
         {
-            image: '/projectImages/pagepal.png',
+            image: '/projectImages/pagepal24.jpg',
             title: 'PagePal',
             description: 'Web Application',
-            imageHeight: 200,
-            imageWidth: 300,
             link: '/pagepal'
         },
         {
-            image: '/projectImages/westpoint.png',
-            imageHeight: 200,
-            imageWidth: 300,
+            image: '/projectImages/westpoint24.jpg',
             title: 'Westpoint Hotel',
-            description: 'Wordpress Website',
+            description: 'WordPress Website',
             link: '/westpoint'
         },
         {
-            image: '/projectImages/borderless.png',
-            imageHeight: 200,
-            imageWidth: 200,
+            image: '/projectImages/borderless24.jpg',
             title: 'Borderless',
             description: 'Web Application',
             link: '/borderless'
         },
         {
-            image: '/projectImages/rescueradar.png',
-            imageHeight: 200,
-            imageWidth: 300,
+            image: '/projectImages/rescueradar24.jpg',
             title: 'RescueRadar',
             description: 'Web Application',
             link: '/rescueradar'
         },
     ];
 
-
-
     return (
         <div className={styles.gridContainer}>
             {projects.map((project, index) => (
-                <div className={styles.projectItem}  key={index}>
-                    <Project
-                        key={index}
-                        project={project}
-                        image={project.image}
-                        title={project.title}
-                        description={project.description}
-                        imageHeight={project.imageHeight}
-                        imageWidth={project.imageWidth}
-                        link={project.link}
-                    />
-                </div>
+                <Link href={project.link} key={index} passHref>
+                    <div className={styles.projectItem}>
+                        <img
+                            src={project.image}
+                            alt={project.title}
+                        />
+                        <div className={styles.titleOverlay}>
+                            <h3>{project.title}</h3>
+                            <p>{project.description}</p>
+                        </div>
+                    </div>
+                </Link>
             ))}
         </div>
     );
 }
-
-    

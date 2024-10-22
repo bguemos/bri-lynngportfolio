@@ -20,28 +20,26 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700;1,800;1,900&display=swap"
         />
       </Head>
-      <Header />
+    
+     <Header/>
     
       <main className={styles.main}>
-    
+        <div className={styles.top}>
+        <h1 className={styles.title}>Bri-lynn Guemos</h1>
+        <div className={styles.line}>
+        <hr></hr>
+      </div>
         <div className={styles.intro}>
-        <h1 className={styles.title}>Hey, I'm Bri-lynn</h1>
-        <h3 className={styles.description}>I am a front-end developer and UX Designer. Take a look at some of my projects!</h3>
-        <div className={styles.thirdbuttons}>
-          <button className={styles.resumebutton}
-            onClick={() => window.open('https://drive.google.com/file/d/1vkSSjWxWgkldoDBDuX-uLoP2NsLAH6bD/view?usp=sharing', '_blank')}
-            title="View Resume"
-              >
-            <h4 className={styles.rtitle}>View Resume</h4>
-              </button>
-            <Button 
-            title="Contact Me"
-            link="mailto:bguemos.work@gmail.com"
-            />
+     
+        <h3 className={styles.description}>Combining my skills in front-end development and UX design, I create seamless and user-friendly interfaces. Take a look at some of my work!</h3>
+
         </div>
-        </div>
-   
         <Carousel/>
+        </div>
+       
+        
+   
+
   
        
 

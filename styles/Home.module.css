@@ -2,29 +2,35 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   gap: 10%;
-  background-image: url('/backgroundBlobs/backgroundgradient.png');
-  background-repeat: repeat;
-  background-size: cover; 
-  background-position: center center;
+  margin: 5%;
+ 
 
 
   
 }
+.top{
+  display: flex;
+  flex-direction: column;
+}
 .title {
-  font-size: 42px;
-  font-weight: 900;
+  font-size: 102px;
+  font-weight: 800;
 }
 .intro{
   display: flex;
   flex-direction: column;
-  width: 400px;
-  align-items: flex-start;
+  width: 500px;
+  
+}
+.line {
+  width: 100%;
+  margin: 0;
+  margin-top: 1%;
 }
 
 .description {
-  font-size: 24px;
+  font-size: 20px;
 }
 .thirdbuttons {
   display: flex;
