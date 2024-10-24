@@ -28,8 +28,12 @@ export default function Header() {
             <Link href="/" className={styles.link}>
             <h3 className={styles.page}>Home</h3>
             </Link>
+            <Link href="#contact" className={styles.link} scroll={false}>
             <h3 className={styles.page}>Contact</h3>
+          </Link>
+          <Link href="#projects" className={styles.link} scroll={false}>
             <h3 className={styles.page}>Projects</h3>
+          </Link>
     
             
     
