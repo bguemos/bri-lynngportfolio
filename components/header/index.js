@@ -15,7 +15,7 @@ export default function Header() {
             <Link href="/">
             <Image
              src='/logo/bg.png'
-             height={40}
+             height={50}
              width={50}
              alt='logo'
     
@@ -28,6 +28,8 @@ export default function Header() {
             <Link href="/" className={styles.link}>
             <h3 className={styles.page}>Home</h3>
             </Link>
+            <h3 className={styles.page}>Contact</h3>
+            <h3 className={styles.page}>Projects</h3>
     
             
     

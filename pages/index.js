@@ -1,4 +1,3 @@
-
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
@@ -21,19 +20,20 @@ export default function Home() {
         />
       </Head>
     
-     <Header/>
+    <Header/>
     
       <main className={styles.main}>
         <div className={styles.top}>
         <h1 className={styles.title}>Bri-lynn Guemos</h1>
+        <div className={styles.intro}>
+     
+     <h3 className={styles.description}>Combining my skills in front-end development and UX design, I create seamless and user-friendly interfaces. Take a look at some of my work!</h3>
+
+     </div>
         <div className={styles.line}>
         <hr></hr>
       </div>
-        <div className={styles.intro}>
-     
-        <h3 className={styles.description}>Combining my skills in front-end development and UX design, I create seamless and user-friendly interfaces. Take a look at some of my work!</h3>
-
-        </div>
+   
         <Carousel/>
         </div>
        
@@ -45,8 +45,12 @@ export default function Home() {
 
      
       </main>
-   
+  
+      <Footer/>
     </>
   )
 }
+
+
+
 

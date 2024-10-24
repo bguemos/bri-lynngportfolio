@@ -185,6 +185,7 @@ The objective for the application's visual presentation aimed for a bright, ente
     
 
   </main>
+  <Footer/>
    
       </>
 

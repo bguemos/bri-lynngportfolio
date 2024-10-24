@@ -459,6 +459,7 @@ Prior to transitioning to the wireframes, a user journey map tracking the steps 
         
         
       </main>
+      <Footer/>
   
     </>
   )

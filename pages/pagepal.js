@@ -188,7 +188,7 @@ Each screen is dedicated exclusively to its primary feature. The interface was d
     
 
   </main>
-   
+   <Footer/>
       </>
 
   )

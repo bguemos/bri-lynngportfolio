@@ -192,6 +192,7 @@ From the moment users land on the homepage, they are greeted with a blend of cap
     
 
   </main>
+  <Footer/>
    
       </>
 

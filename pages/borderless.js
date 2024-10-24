@@ -206,7 +206,7 @@ The choice of earthy colours not only pays homage to Canada's natural beauty but
     
 
   </main>
-   
+   <Footer/>
       </>
 
   )
