@@ -40,7 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #C5C7F7;
+    background-color: black;
 }
 .line {
     width: 100%;
@@ -213,27 +213,42 @@
     justify-content: center;
     background-color: #C5C7F7;
 }
-.resumebutton{
-    height: 51px;
-    width: 200px;
-    background-color: rgb(246, 246, 246);
-    border-radius: 50px;
-    box-shadow: 4px 4px 4px rgba(4, 42, 43, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-}
+
 .buttoncontainer{
     margin-top: 2%;
 }
 
-.rtitle{
-    text-decoration: none;
-    font-weight: 'bold';
-    color: black;
-    font-size: 16px;
-    font-weight: 400;
+
+.resumebutton {
+  height: 51px;
+  width: 200px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50px;
+  box-shadow: 4px 4px 6px rgba(4, 42, 43, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+
+
+}
+
+.rtitle {
+  text-decoration: none;
+  font-weight: 'bold';
+  color: rgb(245, 242, 242);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: anybody;
+  
+}
+
+
+.resumebutton:hover {
+  background-color: white;
+}
+.resumebutton:hover .rtitle {
+  color: black;
 }
 
 .webcontainer{
@@ -257,9 +272,7 @@
     gap: 2%;
 }
 
-.resumebutton:hover {
-    background-color: var(--primary-color);
-}
+
 .slide-in {
     opacity: 0;
     transform: translateY(50px);

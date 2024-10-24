@@ -39,7 +39,9 @@
 .link {
     text-decoration: none;
 }
-
+.links h3 {
+    cursor: pointer;
+  }
 /* Media query for screens with a maximum width of 600px */
 @media (max-width: 600px) {
     .main {
