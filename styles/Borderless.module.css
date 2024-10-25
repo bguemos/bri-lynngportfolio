@@ -1,0 +1,541 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin: 2%;
+}
+.banner {
+  background-image: url('/projectImages/borderless24.jpg'); /* Update path to your image */
+  background-size: cover; /* Ensures the image covers the whole container */
+  background-repeat: no-repeat;
+  background-position: 50% 30%;;
+  height: 500px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  position: relative;
+  color: white; /* White text to stand out on the image */
+}
+
+.header {
+  font-size: 2.5rem; /* Adjust size as needed */
+  text-align: center;
+  margin-right: 2%;
+  z-index: 1; /* Keeps title above background */
+}
+
+/* Optional: Add a dark overlay to improve text readability */
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  z-index: 0; /* Keeps overlay behind the text */
+}
+
+.header{
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start;
+}
+
+.firstcontent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 600px;
+    margin-left: 5%;
+  
+}
+
+.innerapp{
+    font-weight: 300;
+}
+
+.purplediv{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+
+}
+.line {
+    width: 100%;
+    margin: 0;
+    margin-top: 1%;
+}
+
+.projectoverview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.leftcontent {
+    width: 40%;
+    
+}
+
+.rightcontent {
+    width: 40%;
+}
+
+.persona {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.personaintro{
+    width: 25%;
+}
+
+.rightpersona{
+    width: 40%;
+}
+
+
+
+.designprocess{
+    display: flex;
+    align-items: flex-start;
+}
+.leftcontent1{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    justify-content: center;
+}
+.colorpallet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+
+}
+.hexdescription{
+    width: 500px;
+    text-align: left;
+}
+.heximages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.logogrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the column width as needed */
+    gap: 70px; /* Adjust the gap between items */
+    padding: 10px; /* Adjust the padding as needed */
+}
+
+
+
+.userflow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+}
+.web{
+    border: .5px solid lightgrey;
+    box-shadow: 8px 8px 8px rgba(4, 42, 43, 0.5);
+    border-radius: 15px;
+  }
+.description{
+    width: 500px;
+}
+.prototypingcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.protodescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.screenshotsimg{
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px rgba(4, 42, 43, 0.5);
+
+
+}
+.resumebutton {
+  height: 51px;
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  box-shadow: 4px 4px 6px rgba(4, 42, 43, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+
+
+}
+
+.rtitle {
+  text-decoration: none;
+  font-weight: 'bold';
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: anybody;
+  
+}
+
+
+.resumebutton:hover {
+  background-color: rgb(0, 0, 0);
+}
+.resumebutton:hover .rtitle {
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+.buttoncontainer{
+    margin-top: 2%;
+}
+
+
+
+
+.buttongroup {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+
+.interface {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+   
+    
+}
+.photodescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (max-width: 1024px) and (min-width: 414px ) {
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .header{
+    margin-top: 10%;
+    font-size: 20px;
+  }
+  .firstcontent{
+    display: flex;
+    flex-direction: column;
+  }
+  .overview{
+    width: 400px;
+  }
+  .projectoverview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+  }
+  .persona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .personaimage{
+    height: 400px;
+    width: 400px;
+  }
+  .rightpersona{
+    width: 300px;
+    font-size: 12px;
+  }
+  .featurepic{
+    height: 100px;
+    width: 100px;
+  }
+  .features{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .personaintro {
+    width: 300px;
+    font-size: 12px;
+  }
+  
+  .leftcontent1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .colorpallet{
+    display: flex;
+    flex-direction: column;
+  }
+  .hexdescription {
+    width: 300px;
+  }
+  .logogrid{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  .logos3{
+    width: 190px;
+    height: 70px;
+  }
+ .logos{
+    height: 100px;
+    width: 100px;
+ }
+ .mascots{
+    display: flex;
+    flex-direction: column;
+ }
+ .userflow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .journeymapimg{
+    height: 500px;
+    width: 400px;
+ }
+
+ .lowfi{
+    display: flex;
+    flex-direction: column;
+ }
+ .prototyping2{
+    display: flex;
+    flex-direction: column;
+ }
+ .code{
+    display: flex;
+    flex-direction: column;
+ }
+ .webcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .webdescription{
+    width: 400px;
+    font-size: 12px;
+    margin-left: 1%;
+ }
+ .buttongroup{
+    display: none;
+ }
+
+ .websiteimg{
+    height: 300px;
+    width: 500px;
+ }
+ .interface{
+  display: flex;
+  flex-direction: column;
+
+ }
+
+ .description{
+  font-size: 12px;
+  margin-left: 1%;
+ }
+
+ .description{
+  width: 300px;
+ }
+
+}
+
+@media (max-width: 390px) and  (min-width: 375px )  { 
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .header{
+    margin-top: 10%;
+    font-size: 20px;
+  }
+  .firstcontent{
+    display: flex;
+    flex-direction: column;
+  }
+  .overview{
+    width: 300px;
+  }
+  .projectoverview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+  }
+  .persona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .personaimage{
+    height: 400px;
+    width: 400px;
+  }
+  .rightpersona{
+    width: 300px;
+    font-size: 12px;
+  }
+  .featurepic{
+    height: 100px;
+    width: 100px;
+  }
+  .features{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .personaintro {
+    width: 300px;
+    font-size: 12px;
+  }
+  
+  .leftcontent1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .colorpallet{
+    display: flex;
+    flex-direction: column;
+  }
+  .hexdescription {
+    width: 300px;
+  }
+  .logogrid{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  .logos3{
+    width: 190px;
+    height: 70px;
+  }
+ .logos{
+    height: 100px;
+    width: 100px;
+ }
+ .mascots{
+    display: flex;
+    flex-direction: column;
+ }
+ .userflow{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .journeymapimg{
+    height: 500px;
+    width: 400px;
+ }
+
+ .lowfi{
+    display: flex;
+    flex-direction: column;
+ }
+ .prototyping2{
+    display: flex;
+    flex-direction: column;
+ }
+ .code{
+    display: flex;
+    flex-direction: column;
+ }
+ .webcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .webdescription{
+    width: 400px;
+    font-size: 12px;
+    margin-left: 1%;
+ }
+ .buttongroup{
+    display: none;
+ }
+
+ .websiteimg{
+    height: 300px;
+    width: 500px;
+ }
+ .interface{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+ 
+ }
+
+ .description{
+  font-size: 12px;
+  width: 300px;
+ }
+
+ .web{
+  height: 220px;
+  width: 100px;
+
+ }
+
+}
