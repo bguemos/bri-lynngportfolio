@@ -36,3 +36,22 @@
     animation-delay: 3s; 
   }
   
+  @media screen and (max-width: 430px) and (min-width: 414px) {
+    .descriptors{
+      font-size: 10px;
+    }
+    .main{
+      display: flex;
+
+    }
+  }
+
+  @media screen and (max-width: 768px) and (min-width: 390px) {
+    .descriptors{
+      font-size: 10px;
+    }
+    .main{
+      display: flex;
+
+    }
+  }

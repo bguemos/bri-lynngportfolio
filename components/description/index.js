@@ -32,10 +32,14 @@ export default function Descriptors() {
   }, []);
 
   return (
-    <div className={styles.descriptors} ref={descriptorsRef}>
+    <main className={styles.main}>
+      <div className={styles.descriptors} ref={descriptorsRef}>
       <h3 className={styles["descriptor-hidden"]}>User Experience Designer.</h3>
       <h3 className={styles["descriptor-hidden"]}>Frontend Developer.</h3>
       <h3 className={styles["descriptor-hidden"]}>Graphic Designer.</h3>
     </div>
+
+    </main>
+
   );
 }

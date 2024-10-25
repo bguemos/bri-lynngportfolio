@@ -93,7 +93,13 @@
     overflow-x: hidden;
    
   }
-
+.titledescription{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 5%;
+}
   .intro {
     width: 100px;
     display: flex;
@@ -106,8 +112,11 @@
     font-size: 20px;
   }
   .description {
-    font-size: 16px;
+    font-size: 10px;
     width: 300px;
+  }
+  .resumebutton{
+    display: none;
   }
   
 }
@@ -132,14 +141,21 @@
   }
 
   .title {
-    font-size: 20px;
+    font-size: 15px;
   }
   .description {
-    font-size: 16px;
+    font-size: 10px;
     width: 300px;
   }
-  .thirdbuttons{
-   width: 250px;
+  .resumebutton{
+    display: none;
+  }
+  .titledescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 5%;
   }
 
   
@@ -159,9 +175,8 @@
   .intro {
     width: 300px;
   }
-  .thirdbuttons{
-    display: flex;
-    flex-direction: row;
+  .resumebutton{
+    display: none;
   }
   
 }
